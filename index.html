@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>CyberHawkSecurity</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+
+</head>
+<body>
+	
+	<header class="slider">
+		<nav class="nav_bar">
+			<img src="image/logo.png" class="logo"/>
+			
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Course</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		
+		</nav>
+		
+		<div class="title">
+			<h1>CyberHawkSecurity<br>Ethical Hacking Course</h1>
+		</div>
+		<div class="button">
+			<a href="">Register Here</a>
+		</div>
+		<div class="course_more">
+			<a href="#course_highlight">More About Course</a>
+			<img src="image/more.png" href="#course_highlight"/>
+		</div>
+		
+	</header>
+	<section id="course_highlight">
+		<div class="course_hl_cont">
+			<h1>Course Highlights</h1>
+			<ul>
+				<li>Basic to high level training Approach</li>
+				<li>Covers latest security vulnerabilities</li>
+				<li>Perform live hacking while online session</li>
+				<li>Includes interesting hacking challenges</li>
+				<li>We provide you virtual labs for testing</li>
+				<li>We use interactive teaching techniques</li>	
+				<li>Take limited students for a batch for high interaction</li>
+				<li>Cover latest hacking tools and techniques</li>
+				<li>Believe in solving and clearing doubts at same time</li>
+				<li>Well Experienced trainers</li> 
+				<li>Course include 70% practical’s and 30% theory</li>
+				<li>Provide you with various hacking tools and script</li>
+				<li>Free study materials include with it</li>
+				<li>After course completion also we support your doubts and queries</li>
+			</ul>
+		<div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- scripts -->
+	<script>
+			// Select all links with hashes
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+			// On-page links
+			if (
+			  location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+			  && 
+			  location.hostname == this.hostname
+			) {
+			  // Figure out element to scroll to
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			  // Does a scroll target exist?
+			  if (target.length) {
+				// Only prevent default if animation is actually gonna happen
+				event.preventDefault();
+				$('html, body').animate({
+				  scrollTop: target.offset().top
+				}, 1000, function() {
+				  // Callback after animation
+				  // Must change focus!
+				  var $target = $(target);
+				  $target.focus();
+				  if ($target.is(":focus")) { // Checking if the target was focused
+					return false;
+				  } else {
+					$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+					$target.focus(); // Set focus again
+				  };
+				});
+			  }
+			}
+		  });
+	</script>
+</body>
+</html>
