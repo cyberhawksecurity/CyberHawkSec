@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 *{
 	margin:0;
 	padding:0;
@@ -160,6 +162,7 @@ html, body {
 	left:50%;
 	transform: translate(-50%,-50%);		
 }
+
 .title h1 {
 		text-align:center;
 		color: white;
