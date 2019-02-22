@@ -109,7 +109,7 @@ html, body {
 
 @media only screen and (max-width: 768px) {
    .demo .main-title {
-      font-size: 3em;
+      font-size: 2.5em;
    }
 }
 
@@ -330,6 +330,12 @@ label {
 
 @media only screen and (max-width: 700px) {
 	
+	
+		#course_highlight {
+
+			height:auto;
+		
+		}
 		.course_hl_cont {
 	
 				padding-top:30px;
