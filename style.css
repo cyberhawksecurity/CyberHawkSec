@@ -85,31 +85,19 @@ html, body {
    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
 
-.main-title {
-   position: absolute;
-   margin: 0;
-   padding: 0;
-   color: #F9F1E9;
-   text-align: center;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate3d(-50%, -50%, 0);
-   transform: translate3d(-50%, -50%, 0);
-}
 
-.demo .main-title {
+
+.demo {
    text-transform: uppercase;
-   font-size: 4.2em;
+   #font-size: 4.2em;
    letter-spacing: 0.1em;
 }
 
-.main-title .thin {
-   font-weight: 200;
-}
+
 
 @media only screen and (max-width: 768px) {
-   .demo .main-title {
-      font-size: 2.5em;
+   .demo  {
+      font-size: 3em ;
    }
 }
 
@@ -172,6 +160,8 @@ label {
 }
 
 @media only screen and (max-width: 700px) {
+	
+	
 	label {
 		margin: 20px 25px 0 0;
         display: block;
@@ -204,15 +194,24 @@ label {
 
 .title {
 	position:absolute;
+	width:100%;
 	top:45%;
 	left:50%;
 	transform: translate(-50%,-50%);		
 }
 
 .title h1 {
+		#background-color: yellow;
 		text-align:center;
 		color: white;
-		font-size: 50px;
+		font-size: 80px;
+}
+
+.sub_title {
+	font-weight:1; 
+	
+	font-size: 45px;
+	
 }
 .button {
 	position:absolute;
@@ -267,10 +266,21 @@ label {
   to {top: 20px;}
 }
 
+@media only screen and (max-width: 700px) {
+		.title h1 {
+				text-align:center;
+				color: white;
+				font-size: 45px;
+		}
 
+		.sub_title {
+			font-weight:1; 
+			
+			font-size: 25px;
+			
+		}
 
-
-
+}
 
 #course_highlight {
 
