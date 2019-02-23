@@ -162,7 +162,14 @@ label {
 @media only screen and (max-width: 700px) {
 	
 	
+	.logo {
+	
+		width: 70px;
+		margin-left:10px;
+	
+	}
 	label {
+		
 		margin: 20px 25px 0 0;
         display: block;
         cursor: pointer;
