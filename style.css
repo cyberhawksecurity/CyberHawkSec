@@ -653,6 +653,7 @@ label {
 		#course_highlight {
 
 			height:100vh;
+			background-attachment: initial;
 		
 		}
 
@@ -674,6 +675,7 @@ label {
 		#course_highlight {
 
 			height:auto;
+			background-attachment: initial;
 		
 		}
 		
