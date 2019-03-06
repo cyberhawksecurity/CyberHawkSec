@@ -63,8 +63,9 @@
 			<span class="sub_title">Ethical Hacking Course</span></h1>
 			</div>
 		</div>
-		<div class="button">
-			<a href="https://www.payumoney.com/paybypayumoney/#/81C25CC6B08D465492EAE24E96DB6A11">Pay Now</a>
+		<div class="butn">
+		 <a href="./terms&conditions">Join Now</a>
+			
 		</div>
 		<div class="course_more">
 			<a href="#course_highlight">More About Course</a>
@@ -214,6 +215,20 @@
             jQuery(".spinner-wrapper").fadeOut(500);
         });
 		
+</script>
+<script type="text/javascript">
+		function confirmalert(){
+	var userselection = confirm("Are you sure you want to close this account permanently?", 'Title', function () {
+      $('.btn-no').text("No");
+      $('.btn-yes').text("Yes");
+  });
+	if (userselection == true){
+		window.location.href = "https://www.payumoney.com/paybypayumoney/#/81C25CC6B08D465492EAE24E96DB6A11";
+	  }
+	else{
+		alert("Your account is not deleted!");
+	}    
+	}	
 </script>
 </body>
 </html>
