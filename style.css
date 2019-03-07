@@ -521,7 +521,7 @@ label {
 .title {
 	position:absolute;
 	width:100%;
-	top:55%;
+	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);		
 }
@@ -541,19 +541,24 @@ label {
 }
 .butn {
 	position:absolute;
-	top:65%;
+	top:70%;
 	left:50%;
 	transform: translate(-50%,-50%);		
 }
 .butn a{
 	
-	display:block;
-	padding: 7px 15px;
+	
+	display:inline-block;
+	width: 140px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 10px 15px;
 	color:white;
 	text-decoration: none;
+	text-align:center;
 	border: 2px solid white;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .butn a:hover {
