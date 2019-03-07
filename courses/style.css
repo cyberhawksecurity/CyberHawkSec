@@ -521,7 +521,7 @@ label {
 .title {
 	position:absolute;
 	width:100%;
-	top:55%;
+	top:45%;
 	left:50%;
 	transform: translate(-50%,-50%);		
 }
@@ -536,7 +536,7 @@ label {
 .sub_title {
 	font-weight:1; 
 	
-	font-size: 25px;
+	font-size: 45px;
 	
 }
 .butn {
@@ -610,7 +610,7 @@ label {
 #course_highlight {
 
 	height:100vh;
-	background-image: url(image/coursehighlightimg.jpg);
+	background-image: url(../image/coursehighlightimg.jpg);
 	height:100vh;
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -705,7 +705,7 @@ label {
 	
 	height:100vh;
 	#background-color:yellow;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/5.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/5.jpg);
 	background-position:center;
 	background-repeat:none;
 	background-size:cover;
@@ -851,7 +851,7 @@ label {
 }
 .course_why_cont{
 	
-	width: 700px;
+	width: 1000px;
 	margin:auto;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -866,7 +866,6 @@ label {
 
 	line-height: 25px;
 	font-size: 20px;
-	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -920,7 +919,6 @@ label {
 
 		line-height: 25px;
 		font-size: 20px;
-		
 	}
 	
 }
