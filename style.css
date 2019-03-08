@@ -612,244 +612,6 @@ label {
 
 }
 
-#course_highlight {
-
-	height:100vh;
-	background-image: url(image/coursehighlightimg.jpg);
-	height:100vh;
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position:center;
-	background-attachment: fixed;
-	#background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-	#background-image: linear-gradient(#999999 0%, #363636 100%);
-}
-
-
-.course_hl_cont {
-	
-		padding-top:30px;
-		width:1000px;
-		float:left;
-		margin-left:100px;
-		margin-right:auto;
-		text-align:left;
-}
-.course_hl_cont h1{
-	
-		color: white;
-		font-size: 40px;
-		margin-bottom: 20px;
-		text-transform: uppercase;
-}
-.course_hl_cont ul {
-		list-style:none;
-		list-style-type: circle;
-		list-style-position:inside;
-}
-.course_hl_cont ul li {
-	color:white;
-	padding-top: 18px;
-	font-size: 16px;
-}
-
-@media only screen and (max-width: 1000px) {
-	
-		#course_highlight {
-
-			height:100vh;
-			background-attachment: initial;
-		
-		}
-
-		.course_hl_cont {
-	
-				padding-top:30px;
-				width:700px;
-				float:left;
-				margin-left:50px;
-				margin-right:auto;
-				text-align:left;
-		}
-
-}
-
-@media only screen and (max-width: 700px) {
-	
-	
-		#course_highlight {
-
-			height:auto;
-			background-attachment: initial;
-		
-		}
-		
-		.course_hl_cont {
-	
-				padding-top:30px;
-				padding-bottom: 30px;
-				width:100%;
-				float:none;
-				margin-left:0;
-				margin-right:0;
-				text-align:center;
-		}
-		.course_hl_cont ul {
-				list-style:none;
-		}
-	
-}
-
-
-
-
-
-
-
-#course_syllabus {
-	
-	height:100vh;
-	#background-color:yellow;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/5.jpg);
-	background-position:center;
-	background-repeat:none;
-	background-size:cover;
-	#padding-top: 60px;
-}
-
-.course_sy_cont {
-	background-color:rgba(0,0,0,0.7);
-	overflow:hidden;
-	width: 1000px;
-	margin:auto;
-}
-.course_sy_cont h1 {
-		
-		margin-top:	 20px;
-		color:white;
-		text-align:center;
-}
-.course_sy_list1 {
-		
-		width: 410px;
-		#background-color:rgba(0,0,0,0.7);
-		float:left;
-		margin: 30px;
-
-}
-.course_sy_list2 {
-		
-		width: 410px;
-		#background-color:gray;
-		float:right;
-		margin: 30px;
-		
-}
-
-.course_sy_list1 ol,.course_sy_list2 ol {
-	list-style-position: inside;
-}
-.course_sy_list1 li , .course_sy_list2 li{
-	padding-left:10px;
-	color:white;
-	#background-color:rgba(0,0,0,0.8);
-	margin-bottom: 10px;
-}
-.course_sy_list1 li a, .course_sy_list2 li a  {
-	
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
-	padding: 5px 10px;
-	padding-left:4px;
-	display: inline-block;
-}
-.course_sy_list1 li a:hover, .course_sy_list2 li a:hover {
-	
-	border-bottom: 2px solid white;
-}
-.course_sy_but1 {
-		
-	width: 200px;
-	#background-color: red;
-	margin:auto;
-	text-align:center;
-	margin-top: 30px;
-	
-}
-.course_sy_but1 a {
-	
-	#background-color: yellow;
-	padding: 10px 15px;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: bold;
-	background-color:rgba(0,0,0,0.7);
-	color: white;
-	border-radius: 5px;
-	display: inline-block;
-	
-}
-
-@media only screen and (max-width: 1000px) {
-	
-	
-	
-	.course_sy_cont {
-		background-color:rgba(0,0,0,0.7);
-		overflow:hidden;
-		width: 700px;
-		margin:auto;
-	}
-	
-	.course_sy_list1 {
-		
-		width: 310px;
-		#background-color:rgba(0,0,0,0.7);
-		float:left;
-		margin: 10px;
-
-	}
-	.course_sy_list2 {
-			
-			width: 310px;
-			#background-color:gray;
-			float:right;
-			margin: 10px;
-			
-	}
-}
-
-@media only screen and (max-width: 700px) {
-	
-	#course_syllabus {
-	
-		height:auto;
-	
-	}
-	.course_sy_cont {
-		background-color:rgba(0,0,0,0.7);
-		overflow:hidden;
-		width: 90%;
-		margin: auto;
-		text-align:center;
-	}
-	.course_sy_list1 {
-		
-		width:100%;
-		margin:0;
-		float:none;
-	}
-	
-	.course_sy_list2 {
-		
-		width:100%;
-		margin:0;
-		float:none;
-	}
-}
-
-
 #course_why{
 		#height: 100vh;
 		width: 100%;
@@ -927,5 +689,149 @@ label {
 		font-size: 20px;
 		
 	}
+	
+}
+
+
+
+#services_tab {
+	
+	height: auto;
+  font-family: 'Contrail One';
+  color: #fff;
+  background-color: #000;
+  /* used for usingg z-index, so that we can take background in the backward of the all before, after, text*/
+  position: relative;
+  z-index: -9;
+}
+
+.services_wrapper {
+  text-align: center;
+}
+
+.services_title {
+  font-size: 3em;
+  position: relative;
+  margin: 0 auto 0;
+  padding: 1em 1em .25em 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services_title:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 240px;
+  height: 4px;
+  margin-left: -120px;
+  content: '';
+  background-color: #fff;
+}
+
+.services_quote {
+  font-size: 1.5em;
+  position: relative;
+  margin: 1em auto 3.5em;
+  padding: 1em 1em .25em 1em;
+  text-align: center;
+  #text-transform: uppercase;
+}
+
+/* Clip text element */
+.services_clip-text {
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1;
+  width: 450px;
+  position: relative;
+  display: inline-block;
+  margin: .25em;
+  padding: .5em .75em;
+  text-align: center;
+  text-decoration: none;
+  /* Color fallback */
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services_clip-text:before,
+.services_clip-text:after {
+  position: absolute;
+  content: '';
+}
+
+/* Background */
+.services_clip-text:before {
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.services_clip-text:after {
+  position: absolute;
+  z-index: -1;
+  top: .125em;
+  right: .125em;
+  bottom: .125em;
+  left: .125em;
+  background-color: #000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.services_clip-text--no-textzone:before {
+  background-position: -.65em 0;
+}
+
+.services_clip-text--no-textzone:after {
+  content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.services_clip-text--cover,
+.services_clip-text--cover:before {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+.services_clip-text_one {
+  background-image: url(http://hd.wallpaperswide.com/thumbs/simple_abstract_painting-t2.jpg);
+}
+
+
+@media only screen and (max-width: 700px) {
+	
+		.services_clip-text {
+		  font-size: 2em;
+		  font-weight: bold;
+		  line-height: 1;
+		  width: 200px;
+		  position: relative;
+		  display: inline-block;
+		  margin: .25em;
+		  padding: .5em .75em;
+		  text-align: center;
+		  text-decoration: none;
+		  /* Color fallback */
+		  color: #fff;
+		  -webkit-background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		}
+		
+		.services_quote {
+		  font-size: 1.5em;
+		  margin: 1em auto 1.5em;
+		  padding: 1em 1em .25em 1em;
+	
+		}
+
 	
 }
