@@ -516,15 +516,17 @@ label {
 }
 
 .butn {
-	position:absolute;
-	top:65%;
-	left:50%;
-	transform: translate(-50%,-50%);		
+	text-align: center;
+	margin-top: 30px;
+	#position:absolute;
+	#top:65%;
+	#left:50%;
+	#transform: translate(-50%,-50%);		
 }
 
 .butn a{
 	
-	display:block;
+	display:inline-block;
 	padding: 7px 15px;
 	color:white;
 	text-decoration: none;
@@ -564,6 +566,7 @@ label {
 }
 .tc_points {
 	position:absolute;
+	width: 70%;
 	top:40%;
 	left:50%;
 	transform: translate(-50%,-50%);		
@@ -582,10 +585,17 @@ label {
 
 
 @media only screen and (max-width: 700px) {
+		
+		.large-header {
+	
+		   height: 100%;
+		   overflow:hidden;
+		   
+		}
 		.title h1 {
 				text-align:center;
 				color: white;
-				font-size: 40px;
+				font-size: 35px;
 		}
 
 		.sub_title {			
@@ -593,5 +603,10 @@ label {
 			font-size: 25px;
 			
 		}
-
+		.tc_points {
+			position:absolute;
+			top:40%;
+			left:40%;
+			transform: translate(-30%,-30%);		
+		}
 }
