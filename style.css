@@ -552,6 +552,7 @@ label {
 	width: 140px;
 	margin-right: 20px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 	padding: 10px 15px;
 	color:white;
 	text-decoration: none;
@@ -597,6 +598,13 @@ label {
   to {top: 20px;}
 }
 
+
+@media only screen and (max-width: 870px) {
+		
+		.butn a{
+				display: block;
+		}				
+	}
 @media only screen and (max-width: 700px) {
 		.title h1 {
 				text-align:center;
@@ -707,6 +715,7 @@ label {
 
 .services_wrapper {
   text-align: center;
+  padding-bottom: 2.5em;
 }
 
 .services_title {
@@ -811,19 +820,8 @@ label {
 	
 		.services_clip-text {
 		  font-size: 2em;
-		  font-weight: bold;
-		  line-height: 1;
 		  width: 200px;
-		  position: relative;
-		  display: inline-block;
-		  margin: .25em;
-		  padding: .5em .75em;
-		  text-align: center;
-		  text-decoration: none;
-		  /* Color fallback */
-		  color: #fff;
-		  -webkit-background-clip: text;
-		  -webkit-text-fill-color: transparent;
+	
 		}
 		
 		.services_quote {
@@ -833,5 +831,6 @@ label {
 	
 		}
 
+		
 	
 }
