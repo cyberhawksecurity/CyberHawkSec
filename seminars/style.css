@@ -771,6 +771,7 @@ label {
 	#background-color:red;
 	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
 	margin: 20px;
+	margin-top: 130px;
 	border-radius: 100px;
 }
 .semi_ben_block span {
@@ -779,4 +780,23 @@ label {
 	top:50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+
+
+@media only screen and (max-width: 870px) {
+	
+	
+	#seminar_benifits {
+		height:auto;
+	}
+	.semi_ben_block {
+
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		margin: 10px;
+		font-size: 15px;
+	}
+	
+	
 }
