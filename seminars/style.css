@@ -746,7 +746,7 @@ label {
 	
 	width: 90%;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-bottom: 30px;
 	color: white;
 	text-align:center;
@@ -771,7 +771,7 @@ label {
 	#background-color:red;
 	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
 	margin: 20px;
-	margin-top: 130px;
+	margin-top: 150px;
 	border-radius: 100px;
 }
 .semi_ben_block span {
