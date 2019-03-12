@@ -742,4 +742,41 @@ label {
    background-attachment: fixed;
 }
 
+.semi_ben_cont {
+	
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: white;
+	text-align:center;
+	
+}
 
+.semi_ben_cont h1{
+	
+	text-align:center;
+	font-size: 35;
+			
+}
+
+.semi_ben_block {
+	
+	position:relative;
+	display: inline-block;
+	width: 200px;
+	font-size: 25px;
+	height: 200px;
+	text-align:center;
+	#background-color:red;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
+	margin: 20px;
+	border-radius: 100px;
+}
+.semi_ben_block span {
+	
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
