@@ -768,14 +768,14 @@ label {
 	font-size: 25px;
 	height: 200px;
 	text-align:center;
-	background-color:red;
+	#background-color:red;
 	#background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
-	#background: -moz-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* FF3.6+ */
-    #background: -webkit-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome,Safari4+ */
-    #background: -webkit-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome10+,Safari5.1+ */
-    #background: -o-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Opera 11.10+ */
-    #background: -ms-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* IE10+ */
-    #background: linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* W3C */
+	background: -moz-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* FF3.6+ */
+    background: -webkit-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Opera 11.10+ */
+    background: -ms-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* IE10+ */
+    background: linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* W3C */
 	margin: 20px;
 	margin-top: 150px;
 	border-radius: 100px;
