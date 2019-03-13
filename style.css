@@ -645,6 +645,8 @@ html, body {
 	line-height: 25px;
 	font-size: 20px;
 	margin-bottom: 20px;
+	text-align: justify;
+		text-justify: inner-word
 }
 
 @media only screen and (max-width: 1000px) {
@@ -667,9 +669,11 @@ html, body {
 		margin-bottom: 20px;
 	}
 	.course_why_cont p {
-
+		
 		line-height: 25px;
 		font-size: 20px;
+		text-align: justify;
+		text-justify: inner-word;
 	}
 	
 
@@ -698,6 +702,8 @@ html, body {
 
 		line-height: 20px;
 		font-size: 16px;
+		text-align: justify;
+		text-justify: inner-word
 		
 	}
 	
@@ -822,7 +828,7 @@ html, body {
 @media only screen and (max-width: 700px) {
 	
 		.services_clip-text {
-		  font-size: 2em;
+		  font-size: 1em;
 		  width: 200px;
 	
 		}
