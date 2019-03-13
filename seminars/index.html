@@ -32,7 +32,21 @@
 </head>
 <body>
 
+<!--PRELOADER HTML CODE-->
+<div class="spinner-wrapper">
+<div class="wrap">
+  <div class="bg">
+    <div class="loading">
+      <span class="title">loading</span>
+      <span class="text">CyberHawk Security</span>
+    </div>
+  </div>
+</div>
 
+</div>
+  
+
+<!--PRELOADER CODE ENDS HERE-->
 	
 	   <div class="container demo">
    <div class="content">
@@ -154,7 +168,16 @@
 		
 	<script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
 		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- preloader jquery code to terminate preloader -->
+
+<script>
+        jQuery(window).load(function(){
+            jQuery(".spinner-wrapper").fadeOut(500);
+        });
 		
+</script>	
 
 </body>
 </html>

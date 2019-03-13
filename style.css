@@ -626,6 +626,7 @@ html, body {
 #course_why{
 		#height: 100vh;
 		width: 100%;
+		background-color: #bebebe;
 }
 .course_why_cont{
 	
