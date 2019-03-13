@@ -435,7 +435,7 @@ html, body {
 	#height:100px;
 	
 }
-.menu{
+.menu1{
 	float:right;
 	list-style-type:none;
 	margin: 0;
@@ -443,12 +443,12 @@ html, body {
 	
 }
 
-.menu li{
+.menu1 li{
 	display: inline-block;
 	margin-top:10px;
 	margin-right:25px;
 }
-.menu li a{
+.menu1 li a{
 	text-decoration: none;
 	color: white;
 	padding: 3px 20px;
@@ -458,13 +458,13 @@ html, body {
 	font-weight: bold;
 	transition: 0.6s ease;
 }
-.menu li a:hover{
+.menu1 li a:hover{
 
 	background-color:white;
 	color: #000;
 }
 
-label {
+.label1 {
     margin: 0 40px 0 0;
     font-size: 30px;
     line-height: 30px;
@@ -474,8 +474,10 @@ label {
 	padding:4px;
 	color:white;
 }
-#toggle {
+#toggle1 {
+
     display: none;
+	
 }
 
 @media only screen and (max-width: 700px) {
@@ -488,30 +490,30 @@ label {
 		margin-top: 5px;
 	
 	}
-	label {
+	.label1 {
 		
 		margin: 20px 25px 0 0;
         display: block;
         cursor: pointer;
     }
 	
-    .menu {
+    .menu1 {
         text-align: center;
         width: 100%;
         display: none;
     }
-	.menu li {
+	.menu1 li {
         display: block;
 		float: none;
         #border-bottom: 1px solid white;
         margin: 0;
      
     }
-	.menu li a {
+	.menu1 li a {
 		display: block;
 		padding-left:20px;
 	}
-    #toggle:checked + .menu {
+    #toggle1:checked + .menu1 {
         display: block;
     }   
 }
@@ -683,8 +685,8 @@ label {
 		
 		width: 85%;
 		margin:auto;
-		padding-top: 50px;
-		padding-top: 50px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 		
 		text-align:center;
 	}
@@ -694,8 +696,8 @@ label {
 	}
 	.course_why_cont p {
 
-		line-height: 25px;
-		font-size: 20px;
+		line-height: 20px;
+		font-size: 16px;
 		
 	}
 	
