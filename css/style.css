@@ -2,10 +2,28 @@
 	padding-top:5vh;
 }
 
-.instaimg img {margin-bottom:30px;}
+.instaimg img {margin-bottom:30px;
+	#width: 100px;
+
+
+}
 .instaimg img:hover {
+	
 	opacity:0.8;
 	-moz-opacity:0.8;
 	-webkit-opacity:0.8;
 }
+@media only screen and (max-width: 1000px) {
+	
+	.instaimg img {margin-bottom:30px;
+		width: 100px;
 
+
+	}
+	
+	.instaimg {
+		
+		width: 120px;
+	}
+	
+}
