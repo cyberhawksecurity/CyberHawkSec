@@ -844,3 +844,94 @@ html, body {
 		
 	
 }
+
+/* footer css starts here */
+
+			#chs_footer {
+				
+				width:auto;
+				height:auto;
+				overflow: hidden;
+				background-color: #000;
+				color: white;
+			}	
+
+			.chs_footer_container {
+			
+				width: 700px;
+				margin: auto;
+				margin-top: 2em;
+				margin-bottom: 0em;
+				text-align:center;
+			}
+			
+			.footer_logo_cont {
+				
+				padding-bottom:20px;
+				
+			}
+			.footer_logo_cont a {
+				text-decoration:none;
+				color: #fff;
+				font-size: 25px;
+			
+			}
+			.chs_footer_nav {
+			
+				margin-bottom: 20px;
+			}
+			.chs_footer_nav_cont{
+				
+				list-style: none;
+				text-align: center;
+			
+			}
+			.chs_footer_nav li {
+			
+				display: inline-block;
+				
+			
+			
+			}
+			.chs_footer_nav li a {
+				text-decoration: none;
+				color:#fff;
+				display: block;
+				padding:5px 20px;
+				#background-color: yellow;
+			}
+			.socio_icon {
+				display:inline-block;
+			}
+			.socio_icon a{
+				padding: 10px;
+				
+			}
+			.socio_icon a img {
+				
+		
+				width: 30px;
+			
+			}
+			.socio_icon a img:hover {
+			
+				width:32px;
+			}
+			.chs_copyright {
+			
+				padding: 20px;
+			}
+			.socio_bar {
+			
+				height:30px;
+			}
+			@media only screen and (max-width: 700px) {
+				.chs_footer_container {
+					width: 100%;
+				}
+				.chs_copyright{
+					width: 300px;
+					margin:auto;
+				}
+			
+			}
