@@ -858,6 +858,37 @@ html, body {
 	
 }
 
+/* contact us form style  */
+
+	#contact_tab {
+		
+			height: auto;
+			width: 100%;
+			background-size: cover;
+   background-position: center center;
+   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/Ethical_Hacking10.jpg);
+   background-attachment: fixed;
+			
+	}
+	.contact_form {
+			
+			width:640px;
+			margin: auto;
+			#margin-top: 40px;
+			padding-top: 40px;
+			margin-bottom: 0px;
+			padding: 0px;
+			#background-color: red;
+		
+	}
+	.contact_form iframe {
+	
+		margin:0px;
+		
+	}
+
+
+
 /* footer css starts here */
 
 			#chs_footer {
@@ -948,3 +979,6 @@ html, body {
 				}
 			
 			}
+			
+			
+	
