@@ -1,6 +1,14 @@
 #insta_link {
 	padding-top:5vh;
 	background-color: #303030;
+	text-align: center;
+	color: #fff;
+}
+
+.insta_head {
+	
+	margin-bottom: 40px;
+	
 }
 
 .instaimg img {
