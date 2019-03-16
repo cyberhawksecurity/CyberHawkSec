@@ -886,7 +886,18 @@ html, body {
 		margin:0px;
 		
 	}
-
+	
+	@media only screen and (max-width: 700px) {
+		
+			.contact_form {
+				
+				width:100%;
+				
+				
+			}
+		
+	
+	}
 
 
 /* footer css starts here */
