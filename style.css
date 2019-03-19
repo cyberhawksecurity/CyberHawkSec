@@ -554,6 +554,7 @@ html, body {
 	
 	font-size: 25px;
 	
+	
 }
 .butn {
 	position:absolute;
@@ -629,15 +630,27 @@ html, body {
 				text-align:center;
 				color: white;
 				font-size: 40px;
+				letter-spacing: 0.02em;
 		}
 
 		.sub_title {			
 			font-weight:1;
 			font-size: 25px;
+			letter-spacing: 0.02em;
 			
 		}
 
 }
+@media only screen and (max-width: 430px) {
+	
+		.title {
+			
+			top:45%;
+			
+		}
+	
+}
+
 
 #course_why{
 		height: auto;
