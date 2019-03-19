@@ -741,7 +741,10 @@ html, body {
 			#height: 100vh;
 			z-index: -1;
 	}
+	.course_why_contain{
 	
+		padding: 20px;
+	}	
 	.course_why_cont{
 		
 		position: relative;
@@ -753,6 +756,7 @@ html, body {
 		overflow: hidden;	
 		height:;
 		margin:auto;
+		padding: 20px;
 		padding-top: 30px;
 		padding-bottom: 30px;
 		text-align:center;
@@ -782,10 +786,18 @@ html, body {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 	
+	.course_why_contain{
+		
+		padding:15px;
+	}
 	
-	
+	.course_why_cont{
+		
+		padding: 15px;
+		
+	}
 }
 
 
