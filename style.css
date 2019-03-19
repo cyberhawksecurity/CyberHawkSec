@@ -690,8 +690,9 @@ html, body {
 	font-size: 16px;
 	font-weight: 1.5;
 	margin-bottom: 20px;
+	#text-align: left;
 	text-align: justify;
-		text-justify: inner-word;
+	text-justify: inner-word;
 }
 .course_why_img {
 	
