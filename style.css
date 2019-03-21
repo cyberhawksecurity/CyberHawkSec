@@ -946,13 +946,15 @@ html, body {
    background-position: center center;
    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/Ethical_Hacking.jpg);
    background-attachment: fixed;
+			border-top: 0.05px solid black;
 			
 	}
 	.contact_form {
 			
 			width:640px;
 			margin: auto;
-			#margin-top: 40px;
+			
+			margin-top: 40px;
 			padding-top: 40px;
 			margin-bottom: 0px;
 			padding: 0px;
