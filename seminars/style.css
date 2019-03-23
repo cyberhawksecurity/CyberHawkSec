@@ -641,95 +641,6 @@ label {
 	
 }
 
-.animatable {
-  
-  /* initially hide animatable objects */
-  visibility: hidden;
-  
-  /* initially pause animatable objects their animations */
-  -webkit-animation-play-state: paused;   
-  -moz-animation-play-state: paused;     
-  -ms-animation-play-state: paused;
-  -o-animation-play-state: paused;   
-  animation-play-state: paused; 
-}
-
-/* show objects being animated */
-.animated {
-  visibility: visible;
-  
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both;
-  
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  -ms-animation-duration: 1s;
-  -o-animation-duration: 1s;
-  animation-duration: 1s;
-
-  -webkit-animation-play-state: running;
-  -moz-animation-play-state: running;
-  -ms-animation-play-state: running;
-  -o-animation-play-state: running;
-  animation-play-state: running;
-}
-
-/* CSS Animations (extracted from http://glifo.uiparade.com/) */
-@-webkit-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateY(-20px);
-	}	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-	}
-}
-
-@-moz-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-moz-transform: translateY(-20px);
-	}
-
-	100% {
-		opacity: 1;
-		-moz-transform: translateY(0);
-	}
-}
-
-@-o-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-o-transform: translateY(-20px);
-	}
-
-	100% {
-		opacity: 1;
-		-o-transform: translateY(0);
-	}
-}
-
-@keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		transform: translateY(-20px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-.animated.fadeInDown {
-	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
-}
-
 
 #seminar_benifits {
    width: 100%;
@@ -776,9 +687,9 @@ label {
     #background: -o-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Opera 11.10+ */
     #background: -ms-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* IE10+ */
     #background: linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* W3C */
-	#margin: 20px;
-	#margin-top: 150px;
-	#border-radius: 100px;
+	margin: 20px;
+	margin-top: 150px;
+	border-radius: 100px;
 }
 .semi_ben_block span {
 	
