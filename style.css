@@ -974,6 +974,13 @@ slide show css starts from here
 
 	@media only screen and (max-width: 602px) {
 
+		#slider_page { 
+			height:600px;
+			padding-top: 40px;
+		}
+		#slider_wrap {
+				height: 500px;
+			}
 		#slider_wrap {
 			
 			width: 400px;
@@ -982,6 +989,7 @@ slide show css starts from here
 		#slider_wrap ul#slider_area li {
 
 			width: 400px;
+			height: 500px;
 		}
 		#slider_area li div {
 		
@@ -1005,34 +1013,40 @@ slide show css starts from here
 	}
 
 	@media only screen and (max-width: 402px) {
+		#slider_page { 
+					height:550px;
+					padding-top: 30px;
+			}
 
-		#slider_wrap {
-			
-			width: 350px;
-		}
-		
-		#slider_wrap ul#slider_area li {
-
-			width: 350px;
-		}
-		#slider_area li div {
-		
-		
-			width: 330px;
-		
-		}
-
-		#slider_area li div h2 {
-			
-			font-size: 25px;
+			#slider_wrap {
 				
-		}
+				width: 350px;
+				height: 450px;
+			}
+			
+			#slider_wrap ul#slider_area li {
 
-		#slider_area li div h3 {
-			font-size: 40px;
+				width: 350px;
+				height: 450px;
+			}
+			#slider_area li div {
 			
 			
-		}
+				width: 330px;
+			
+			}
+
+			#slider_area li div h2 {
+				
+				font-size: 25px;
+					
+			}
+
+			#slider_area li div h3 {
+				font-size: 40px;
+				
+				
+			}
 		
 	}
 
