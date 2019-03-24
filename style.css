@@ -651,6 +651,403 @@ html, body {
 	
 }
 
+/* ##############################
+slide show css starts from here
+############################## */
+
+	#slider_page {
+		
+		height: 100vh;
+		width: 100%;
+		#background-color: yellow;
+		position:relative;
+		background-size: cover;
+	   background-position: center center;
+	   padding-top: 5vh;
+	   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(/image/home.jpg);
+	   
+	   background-attachment: fixed;	
+	}
+
+	#slider_wrap {
+		
+		height: 80vh;
+		width: 1200px;
+		margin: auto;
+		#background-color: red;
+		
+		position:relative;
+		overflow:hidden;
+		
+	}
+
+	#slider_wrap ul#slider_area {
+
+		width:100%;
+		height:100%;
+		#background-color: green;
+		position:absolute;
+		top:0;
+		left:00px;		
+	}
+		
+	#slider_wrap ul#slider_area li {
+		
+		float:left;
+		position:relative;
+		width:1200px;
+		height:80vh;
+		
+		
+	}
+	#slider_area li div {
+		
+		position: absolute;
+		width: 600px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-size: 25px;
+	}
+
+	#slider_area li div h2 {
+		
+		font-size: 30px;
+			color: #ffffff;
+	}
+
+	#slider_area li div h3 {
+		font-size: 50px;
+			color: #ffffff;
+		
+	}
+	.butn_onslide {
+		#position:absolute;
+		#top:70%;
+		#left:50%;
+		#transform: translate(-50%,-50%);
+		margin-top: 20px;	
+	}
+	.butn_onslide a{
+		
+		
+		display:inline-block;
+		width: 180px;
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		padding: 10px 15px;
+		#color:white;
+		color: #daf6ff;
+		text-decoration: none;
+		text-align:center;
+		border: 1px solid #daf6ff;
+		border-radius: 25px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+
+	.butn_onslide a:hover {
+		background-color: #fff;
+		color: #000;
+		border:0;
+	}
+	.anima {
+		visibility: visible;
+		font-size: 50px;
+			color: #ffffff;
+		  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+		  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+		  opacity: 0;
+		  animation-name: titleAnimation;
+		  animation-timing-function: ease;
+		  animation-duration: 3s;
+		  animation-delay: 0.6s;
+	  -webkit-animation-fill-mode: forwards;
+	  animation-iteration-count: infinite;
+	  
+	  
+	  
+	  -webkit-animation-play-state: running;
+	  -moz-animation-play-state: running;
+	  -ms-animation-play-state: running;
+	  -o-animation-play-state: running;
+	  animation-play-state: running;
+	}
+
+	.anima1 {
+		visibility: visible;
+		font-size: 30px;
+	  color: #ffffff;
+	  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	  opacity: 0;
+	  animation-name: titleAnimation;
+	  animation-timing-function: ease;
+	  animation-duration: 3s;
+	  animation-delay: 0.s;
+	  -webkit-animation-fill-mode: forwards;
+		animation-delay: 0.7s;
+	  -webkit-animation-fill-mode: forwards;
+	  animation-iteration-count: infinite;
+	  
+	  
+	  
+	  -webkit-animation-play-state: running;
+	  -moz-animation-play-state: running;
+	  -ms-animation-play-state: running;
+	  -o-animation-play-state: running;
+	  animation-play-state: running;
+	}
+
+
+	/*bar*/
+	#pagination_wrap{
+		min-width:20px;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		height:15px;
+		position:absolute;
+		text-align:center;
+	}
+
+	#pagination_wrap ul {
+		width:100%;
+	}
+
+	#pagination_wrap ul li{
+		margin: 0 4px;
+		display: inline-block;
+		width:5px;
+		height:5px;
+		border-radius:50%;
+		background:#fff;
+		opacity:0.5;
+			position:relative;
+	  top:0;
+	  
+	  
+	}
+	#pagination_wrap ul li.active{
+	  width:12px;
+	  height:12px;
+	  top:3px;
+		opacity:1;
+		box-shadow:rgba(0,0,0,0.1) 1px 1px 0px;	
+	}
+
+	.btns_area {
+			
+		position: absolute;
+		top: 95%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 350px;
+		height: 7vh;
+		#background-color: yellow;
+		
+	}
+
+	.btns{
+
+		width:45px;
+		height:45px;
+		
+		display: inline-block;
+		line-height:50px;
+		text-align:center;
+		cursor:pointer;	
+		background:rgba(0,0,0,0.5);
+		z-index:100;
+		
+		
+		-webkit-user-select: none;  
+		-moz-user-select: none; 
+		-khtml-user-select: none; 
+		-ms-user-select: none;
+		
+		-webkit-transition: all 0.1s ease;
+		-moz-transition: all 0.1s ease;
+		-o-transition: all 0.1s ease;
+		-ms-transition: all 0.1s ease;
+		transition: all 0.1s ease;
+	}
+	.btns img {
+		width: 80%;	
+		
+	}
+	.btns:hover{
+		background:rgba(0,0,0,0.3);	
+	}
+
+	#previous{ float: left; border-radius:7px 0px 0px 7px;}
+	#next{float: right; border-radius:0px 7px 7px 0px;}
+
+	/*ANIMATION*/
+	#slider_wrap ul, #pagination_wrap ul li{
+		-webkit-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+		-moz-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+		-o-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+		-ms-transition: all 0.3s cubic-bezier(1,.01,.32,1);
+		transition: all 0.3s cubic-bezier(1,.01,.32,1);	
+	}
+
+
+	@keyframes titleAnimation {
+	  0% {
+		transform: translateY(-50px);
+		opacity: 0;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+	  }
+	  20% {
+		transform: translateY(0);
+		opacity: 1;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
+	  }
+	  80% {
+		transform: translateY(0);
+		opacity: 1;
+		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
+		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
+	  }
+	  100% {
+		transform: translateY(50px);
+		opacity: 0;
+		-webkit-clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 100%);
+		clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 100%);
+	  }
+	}
+
+
+	@media only screen and (max-width: 1202px) {
+
+		#slider_wrap {
+			
+			width: 1000px;
+		}
+		
+		#slider_wrap ul#slider_area li {
+
+			width: 1000px;
+		}
+		
+	}
+	@media only screen and (max-width: 1002px) {
+
+		#slider_wrap {
+			
+			width: 800px;
+		}
+		
+		#slider_wrap ul#slider_area li {
+
+			width: 800px;
+		}
+		
+	}
+	@media only screen and (max-width: 802px) {
+
+		#slider_wrap {
+			
+			width: 600px;
+		}
+		
+		#slider_wrap ul#slider_area li {
+
+			width: 600px;
+		}
+		
+		#slider_area li div {
+		
+		
+			width: 400px;
+		
+		}
+
+		
+		
+	}
+
+	@media only screen and (max-width: 602px) {
+
+		#slider_wrap {
+			
+			width: 400px;
+		}
+		
+		#slider_wrap ul#slider_area li {
+
+			width: 400px;
+		}
+		#slider_area li div {
+		
+		
+			width: 350px;
+		
+		}
+
+		#slider_area li div h2 {
+			
+			font-size: 25px;
+				
+		}
+
+		#slider_area li div h3 {
+			font-size: 40px;
+			
+			
+		}
+		
+	}
+
+	@media only screen and (max-width: 402px) {
+
+		#slider_wrap {
+			
+			width: 350px;
+		}
+		
+		#slider_wrap ul#slider_area li {
+
+			width: 350px;
+		}
+		#slider_area li div {
+		
+		
+			width: 330px;
+		
+		}
+
+		#slider_area li div h2 {
+			
+			font-size: 25px;
+				
+		}
+
+		#slider_area li div h3 {
+			font-size: 40px;
+			
+			
+		}
+		
+	}
+
+
+
+
+
+
+
+
+/* ##############################
+slide show css ends from here
+############################## */
+
+
 
 #course_why{
 		height: auto;
