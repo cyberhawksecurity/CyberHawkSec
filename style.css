@@ -1466,7 +1466,8 @@ slide show css ends from here
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .services_clip-text_one {
-  background-image: url(http://hd.wallpaperswide.com/thumbs/simple_abstract_painting-t2.jpg);
+  #background-image: url(http://hd.wallpaperswide.com/thumbs/simple_abstract_painting-t2.jpg);
+  background-color: white;
 }
 
 
