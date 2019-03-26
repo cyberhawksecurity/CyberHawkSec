@@ -698,7 +698,7 @@ html, body {
 	
 }
 
-#training_benifits {
+#training_type {
 	
    width: 100%;
    #height:100vh;
@@ -711,43 +711,36 @@ html, body {
    background-attachment: fixed;
 }
 
-.trainee_ben_cont {
+.trainee_type_cont {
 	
 	width: 90%;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	color: #000;
 	text-align:center;
 	
 }
 
-.trainee_ben_head{
+.trainee_type_head{
 	
 	text-align:center;
 	font-size: 30px;
 			
 }
 
-.trainee_ben_block {
+.trainee_type_block {
 	
 	
 	position:relative;
 	display: inline-block;
 	width: 320px;
 	color: #999;
-	font-size: 22px;
+	
 	height: 340px;
 	text-align:center;
 	background-color: rgba(0, 0, 0, 0);
-	#background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
-	#background: -moz-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* FF3.6+ */
-    #background: -webkit-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome,Safari4+ */
-    #background: -webkit-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome10+,Safari5.1+ */
-    #background: -o-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Opera 11.10+ */
-    #background: -ms-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* IE10+ */
-    #background: linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* W3C */
-	margin: 20px;
+	margin: 60px;
 	margin-top: 50px;
 	
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -755,54 +748,82 @@ html, body {
 	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   
 	border-radius: 20px;
+
 }
-.trainee_ben_block span {
+.trainee_type_block h1 {
 	
+	font-size: 24px;
+	width: 75%;
+	margin: auto;
+	position: absolute;
+	top:20%;
+	left: 50%;	
+	color: #000;
+	transform: translate(-50%,-50%);
+	
+}
+.trainee_type_block span {
+	background-color: yellow;
+	width: 75%;
+	font-size: 18px;
 	font-family: Verdana,sans-serif;
 	position: absolute;
-	top:80%;
+	top:50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.trainee_ben_block img {
+
+.training_type_butn{
+
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform: translate(-50%,-50%);		
+}
+.training_type_butn a{
 	
-	position: absolute;
-	top:30%;
-	left: 50%;
-	width: 100px;
-	transform: translate(-50%,-50%);
+	display:block;
+	padding: 7px 15px;
+	color:#999;
+	text-decoration: none;
+	border: 2px solid #999;
+	font-weight: bold;
+	border-radius: 7px;
+	font-size: 20px;
 }
 
 
 @media only screen and (max-width: 1200px) {
 	
 	
-	.trainee_ben_block {
+	.trainee_type_block {
 	
-		width: 150px;
-		height: 170px;
-		margin: 20px;
+		width: 280px;
+		height: 300px;
+		margin: 30px;
 		margin-top: 30px;
 		
 		color: #999;
+	}
+	.trainee_type_block h1{
+		
+		font-size: 20px;
+	}
+	.trainee_type_block span {
+		
+		font-size: 16px;
+		
+		
+	}
+	.training_type_butn a{
+		
 		font-size: 16px;
 	}
-	.trainee_ben_block span {
-		
-		top: 75%;
-		
-	}
-	.trainee_ben_block img {
-		
-		width: 50px;
-		
-	}
-	
 	
 }
 @media only screen and (max-width: 450px) {
 	
-	.trainee_ben_block {
+	.trainee_type_block {
 		margin: 15px;
 		margin-top: 20px;
 	}
@@ -913,6 +934,116 @@ html, body {
 			width:300px;
 	
 		}
+}
+
+#training_benifits {
+	
+   width: 100%;
+   #height:100vh;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   background-color:#f5f5f5;
+   #background-color:#fff;
+   background-attachment: fixed;
+}
+
+.trainee_ben_cont {
+	
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #000;
+	text-align:center;
+	
+}
+
+.trainee_ben_head{
+	
+	text-align:center;
+	font-size: 30px;
+			
+}
+
+.trainee_ben_block {
+	
+	
+	position:relative;
+	display: inline-block;
+	width: 320px;
+	color: #999;
+	font-size: 22px;
+	height: 340px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0);
+	#background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%;
+	#background: -moz-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* FF3.6+ */
+    #background: -webkit-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome,Safari4+ */
+    #background: -webkit-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Chrome10+,Safari5.1+ */
+    #background: -o-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* Opera 11.10+ */
+    #background: -ms-linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* IE10+ */
+    #background: linear-gradient(to right, rgb(48, 232, 191,0.5), rgb(255, 130, 53,0.5)) repeat scroll 0% 0%; /* W3C */
+	margin: 20px;
+	margin-top: 50px;
+	
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  
+	border-radius: 20px;
+}
+.trainee_ben_block span {
+	
+	font-family: Verdana,sans-serif;
+	position: absolute;
+	top:80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.trainee_ben_block img {
+	
+	position: absolute;
+	top:30%;
+	left: 50%;
+	width: 100px;
+	transform: translate(-50%,-50%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+	
+	
+	.trainee_ben_block {
+	
+		width: 150px;
+		height: 170px;
+		margin: 20px;
+		margin-top: 30px;
+		
+		color: #999;
+		font-size: 16px;
+	}
+	.trainee_ben_block span {
+		
+		top: 75%;
+		
+	}
+	.trainee_ben_block img {
+		
+		width: 50px;
+		
+	}
+	
+	
+}
+@media only screen and (max-width: 450px) {
+	
+	.trainee_ben_block {
+		margin: 15px;
+		margin-top: 20px;
+	}
 }
 
 
