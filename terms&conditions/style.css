@@ -394,7 +394,7 @@ html, body {
 .large-header {
    position: relative;
    width: 100%;
-   height:100vh;
+   height:auto;
    background: #111;
    overflow: hidden;
    background-size: cover;
@@ -422,32 +422,116 @@ html, body {
    }
 }
 
+/*###############################
+####menu bar css starts here#####
+###############################*/
+.nav_bar{
+	#background-color:#000;
+	overflow: hidden;
+	#height:100px;
+	
+}
+
+.menu_button{
+	
+	position: absolute;
+	#background-color: #f5f5f5;
+	padding: 7px 10px;	
+	top: 20px;
+	right: 20px;
+	border-radius: 5px;	
+	display:none;
+	z-index:99;
+	
+}
+.menu_icon {
+	
+  position: relative;
+  width: 34px;
+  height: 24px;
+  display: inline-block;
+  
+}
+
+.menu_icon span {
+  position: absolute;
+  #height: 0.1875em;
+  height: 3px;
+  width: 100%;
+  #background-color: #363636;
+  background-color: #fff;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.menu_icon span:nth-child(1) {
+  #top: 0.09375em;
+  top: 2px;
+}
+
+.menu_icon span:nth-child(2),
+.menu_icon span:nth-child(3) {
+  #top: 0.9375em;
+  top: 12px;
+}
+
+.menu_icon span:nth-child(4) {
+  # top: 1.875em;
+  top: 22px;
+}
+
+.menu_button:hover span,
+.menu_button:focus span,
+.menu_button:active span {
+  background: #f3f3f3;
+}
+.menu_button:hover{
+	
+	background-color: gray;
+	
+}
+
+.menu_icon.is-active span:nth-child(1),
+.menu_icon.is-active span:nth-child(4) {
+  opacity: 0;
+}
+
+.menu_icon.is-active span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.menu_icon.is-active span:nth-child(3) {
+  #top: 0.9375em;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+
 .logo {
 	
 	width:100px;
 	margin-left:30px;
 	
 }
-.nav_bar{
-	#background-color:red;
-	overflow: hidden;
-	#height:100px;
-	
-}
-.menu{
+
+.menu_list{
 	float:right;
 	list-style-type:none;
 	margin: 0;
 	padding:0;
+	#display:none;
 	
 }
 
-.menu li{
+.menu_list li{
 	display: inline-block;
 	margin-top:10px;
 	margin-right:25px;
 }
-.menu li a{
+.menu_list li a{
 	text-decoration: none;
 	color: white;
 	padding: 3px 20px;
@@ -457,64 +541,53 @@ html, body {
 	font-weight: bold;
 	transition: 0.6s ease;
 }
-.menu li a:hover{
+.menu_list li a:hover{
 
 	background-color:white;
 	color: #000;
 }
 
-label {
-    margin: 0 40px 0 0;
-    font-size: 30px;
-    line-height: 30px;
-    display: none;
-    width: 30px;
-    float: right;
-	padding:4px;
-	color:white;
-}
-#toggle {
-    display: none;
-}
 
 @media only screen and (max-width: 700px) {
 	
-	
-	.logo {
-	
-		width: 80px;
-		margin-left:15px;
-		margin-top: 5px;
-	
-	}
-	label {
-		
-		margin: 20px 25px 0 0;
-        display: block;
-        cursor: pointer;
-    }
-	
-    .menu {
+	.menu_list {
+		position: fixed;
+		top: 0px;
+		height: 100vh;
         text-align: center;
+		background-color: rgba(0,0,0,0.9);
         width: 100%;
         display: none;
+		z-index: 4;
+		padding-top:80px;
+		
     }
-	.menu li {
+	.menu_list li {
+	
         display: block;
 		float: none;
         #border-bottom: 1px solid white;
         margin: 0;
      
     }
-	.menu li a {
+	.menu_list li a {
+		width: 70%;
+		margin: auto;
+		margin-top: 20px;
+		font-size: 25px;
 		display: block;
-		padding-left:20px;
+		padding:20px;
 	}
-    #toggle:checked + .menu {
-        display: block;
-    }   
+	.menu_button{
+	
+		display: block;
+	}
+	
 }
 
+/*###############################
+####menu bar css ends here#####
+###############################*/
 .butn {
 	text-align: center;
 	margin-top: 30px;
@@ -544,11 +617,13 @@ label {
 
 
 .title {
-	position:absolute;
-	width:100%;
-	top:20%;
-	left:50%;
-	transform: translate(-50%,-50%);		
+	#position:absolute;
+	width:80%;
+	margin: auto;
+	margin-top: 40px;
+	#top:20%;
+	#left:50%;
+	#transform: translate(-50%,-50%);		
 }
 
 .title h1 {
@@ -561,15 +636,24 @@ label {
 .sub_title {
 	font-weight:1; 
 	
-	font-size: 45px;
+	font-size: 30px;
 	
 }
 .tc_points {
-	position:absolute;
-	width: 70%;
-	top:40%;
-	left:50%;
-	transform: translate(-50%,-50%);		
+	
+	#position:absolute;
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;	
+	margin-bottom: 40px;
+	#top:40%;
+	#left:50%;
+	#transform: translate(-50%,-50%);		
+}
+
+.tc_points h1{
+	text-align:center;
+	color: white;
 }
 
 .tc_points ul {
@@ -595,18 +679,110 @@ label {
 		.title h1 {
 				text-align:center;
 				color: white;
-				font-size: 35px;
+				font-size: 30px;
 		}
 
 		.sub_title {			
 			font-weight:1;
-			font-size: 25px;
+			font-size: 20px;
 			
 		}
 		.tc_points {
-			position:absolute;
-			top:40%;
-			left:40%;
-			transform: translate(-30%,-30%);		
+			
 		}
 }
+
+
+/* footer css starts here */
+
+			#chs_footer {
+				
+				width:auto;
+				height:auto;
+				overflow: hidden;
+				background-color: #000;
+				color: white;
+			}	
+
+			.chs_footer_container {
+			
+				width: 700px;
+				margin: auto;
+				margin-top: 2em;
+				margin-bottom: 0em;
+				text-align:center;
+			}
+			
+			.footer_logo_cont {
+				
+				padding-bottom:20px;
+				
+			}
+			.footer_logo_cont a {
+				text-decoration:none;
+				color: #fff;
+				font-size: 25px;
+			
+			}
+			.chs_footer_nav {
+			
+				margin-bottom: 20px;
+			}
+			.chs_footer_nav_cont{
+				
+				list-style: none;
+				text-align: center;
+			
+			}
+			.chs_footer_nav li {
+			
+				display: inline-block;
+				
+			
+			
+			}
+			.chs_footer_nav li a {
+				text-decoration: none;
+				color:#fff;
+				display: block;
+				padding:5px 20px;
+				#background-color: yellow;
+			}
+			.socio_icon {
+				display:inline-block;
+			}
+			.socio_icon a{
+				padding: 10px;
+				
+			}
+			.socio_icon a img {
+				
+		
+				width: 30px;
+			
+			}
+			.socio_icon a img:hover {
+			
+				width:32px;
+			}
+			.chs_copyright {
+			
+				padding: 20px;
+			}
+			.socio_bar {
+			
+				height:30px;
+			}
+			@media only screen and (max-width: 700px) {
+				.chs_footer_container {
+					width: 100%;
+				}
+				.chs_copyright{
+					width: 300px;
+					margin:auto;
+				}
+			
+			}
+			}
+			}
+			}

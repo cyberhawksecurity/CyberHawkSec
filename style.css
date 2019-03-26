@@ -1205,13 +1205,13 @@ slide show css ends from here
 }
 
 
-#course_why{
+#what_do{
 		height: auto;
 		width: 100%;
 		background-color: #fff;
 		overflow: hidden;	
 }
-.course_why_contain{
+.what_do_contain{
 	
 	position: relative;
 	width:1200px;
@@ -1223,7 +1223,7 @@ slide show css ends from here
 	
 }
 
-.course_why_cont{
+.what_do_cont{
 	
 	width: 65%;
 	#margin:auto;
@@ -1232,12 +1232,12 @@ slide show css ends from here
 	padding: 40px;
 	text-align:center;
 }
-.course_why_cont h1 {
+.what_do_cont h1 {
 	
 	margin-bottom: 20px;
 	
 }
-.course_why_cont p {
+.what_do_cont p {
 
 	line-height: 20px;
 	font-size: 16px;
@@ -1247,7 +1247,7 @@ slide show css ends from here
 	text-align: justify;
 	text-justify: inner-word;
 }
-.course_why_img {
+.what_do_img {
 	
 
 	width: 30%;
@@ -1259,7 +1259,7 @@ slide show css ends from here
 	padding-bottom: 100px;
 	
 }
-.course_why_img img {
+.what_do_img img {
 	
 	
 	vertical-align: middle;
@@ -1270,18 +1270,18 @@ slide show css ends from here
 @media only screen and (max-width: 1200px) {
 	
 
-	.course_why_contain{
+	.what_do_contain{
 	
 		width: 100%;
 		#height: 100vh;
 	}
-	.course_why_cont{ 
+	.what_do_cont{ 
 	
 		height:auto;
 		overflow:hidden;
 	
 	}
-	.course_why_img{
+	.what_do_img{
 		
 		height: auto;
 		overflow: hidden;
@@ -1291,15 +1291,15 @@ slide show css ends from here
 @media only screen and (max-width: 1000px) {
 	
 	
-	#course_why{
+	#what_do{
 			#height: 100vh;
 			z-index: -1;
 	}
-	.course_why_contain{
+	.what_do_contain{
 	
 		padding: 20px;
 	}	
-	.course_why_cont{
+	.what_do_cont{
 		
 		position: relative;
 		float: none;
@@ -1316,11 +1316,11 @@ slide show css ends from here
 		text-align:center;
 		z-index: 2;
 	}
-	.course_why_cont h1 {
+	.what_do_cont h1 {
 		
 		margin-bottom: 20px;
 	}
-	.course_why_img {
+	.what_do_img {
 	
 		float: none;
 		width: auto;
@@ -1331,7 +1331,7 @@ slide show css ends from here
 		left: 50%;
 		transform: translate(-50%,-50%);	
 	}
-	.course_why_img img {
+	.what_do_img img {
 	vertical-align: middle;
 	opacity: 0.3;
 	filter: alpha(opacity=30);
@@ -1342,12 +1342,12 @@ slide show css ends from here
 
 @media only screen and (max-width: 400px) {
 	
-	.course_why_contain{
+	.what_do_contain{
 		
 		padding:15px;
 	}
 	
-	.course_why_cont{
+	.what_do_cont{
 		
 		padding: 15px;
 		
@@ -1415,60 +1415,18 @@ slide show css ends from here
   text-decoration: none;
   /* Color fallback */
   color: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  #-webkit-background-clip: text;
+  #-webkit-text-fill-color: transparent;
+  border: 3px solid white;
 }
 
-.services_clip-text:before,
-.services_clip-text:after {
-  position: absolute;
-  content: '';
-}
+.services_clip-text:hover {
 
-/* Background */
-.services_clip-text:before {
-  z-index: -2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: inherit;
-}
+	text-decoration: none;
+	color: #333;
+	border: 3px solid #333 ;
+}	
 
-/* Text Background (black zone) */
-.services_clip-text:after {
-  position: absolute;
-  z-index: -1;
-  top: .125em;
-  right: .125em;
-  bottom: .125em;
-  left: .125em;
-  background-color: #000;
-}
-
-/* Change the background position to display letter when the black zone isn't here */
-.services_clip-text--no-textzone:before {
-  background-position: -.65em 0;
-}
-
-.services_clip-text--no-textzone:after {
-  content: none;
-}
-
-/* Use Background-size cover for photo background and no-repeat background */
-.services_clip-text--cover,
-.services_clip-text--cover:before {
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
-.services_clip-text_one {
-  #background-image: url(http://hd.wallpaperswide.com/thumbs/simple_abstract_painting-t2.jpg);
-  background-color: white;
-}
 
 
 @media only screen and (max-width: 700px) {
