@@ -42,16 +42,18 @@
 
 
 <!--PRELOADER HTML CODE-->
-<div class="spinner-wrapper">
-<div class="wrap">
-  <div class="bg">
-    <div class="loading">
-      <span class="title">loading</span>
-      <span class="text">CyberHawk Security</span>
-    </div>
+<div id="loader-wrapper">
+  <div id="preloader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
-</div>
-
+  <div id="label">
+    <h2>CyberHawk Security</h2>
+    <p>Safe and Secure Cyber Solutions</p>
+  </div>
 </div>
   
 
@@ -80,8 +82,8 @@
 		<canvas id="demo-canvas"></canvas>
 		<div class="title">
 			 <div class="center">
-			<h1 ><span >CyberHawk Security</span><br>
-			<span class="sub_title">Ethical Hacking Training</span></h1>
+			<h1 ><span >Ethical Hacking Training</span><br>
+			<span class="sub_title">CyberHawk Security</span></h1>
 			</div>
 		</div>
 		<div class="butn">
@@ -178,20 +180,20 @@
 		
 		<div class="trainee_ben_block  animatable bounceIn">
 		
-		<img src="../image/effective_course_content.svg"><img>
+		<img src="../image/elearning.png"><img>
 		<span>Informative & effective Course Content</span>
 		
 		</div>
 		
 		<div class="trainee_ben_block  animatable bounceIn">
 		
-		<img src="../image/discount.svg"><img>
+		<img src="../image/discount.png"><img>
 		<span>Affordable Cost For Training</span>
 		
 		</div>
 		<div class="trainee_ben_block  animatable bounceIn">
 		
-		<img src="../image/online_training.svg"><img>
+		<img src="../image/video-chat.png"><img>
 		<span>Interactive Online Training Class</span>
 		
 		</div>
@@ -205,32 +207,32 @@
 		<div style="padding-top:60px; padding-bottom: 60px;">
 		<div class="course_sy_cont"> 
 			<h1  class="animatable bounceIn">Course Content</h1> 
-			<div class="course_sy_list1 animatable bounceInleft">
+			<div class="course_sy_list1">
 				<ol type="1">
-					<li><a href="">Introduction To Ethical Hacking</a></li>
-					<li><a href="">Fundamentals of Networking</a></li>
-					<li><a href="">Virtualization</a></li>
-					<li><a href="">Basics to Linux</a></li>
-					<li><a href="">Digital Foot printing</a></li>
-					<li><a href="">Social Engineering Technique</a></li>
-					<li><a href="">Network Hacking</a></li>
-					<li><a href="">Malware Attacks and Detection</a></li>
-					<li><a href="">Bug Bounty and C.T.F.</a></li>
-					<li><a href="">Cryptography and Steganography</a></li>
+					<li class="animatable bounceInLeft"><a href="">Introduction To Ethical Hacking</a></li>
+					<li class="animatable bounceInLeft"><a href="">Fundamentals of Networking</a></li>
+					<li class="animatable bounceInLeft"><a href="">Virtualization</a></li>
+					<li class="animatable bounceInLeft"><a href="">Basics to Linux</a></li>
+					<li class="animatable bounceInLeft"><a href="">Digital Foot printing</a></li>
+					<li class="animatable bounceInLeft"><a href="">Social Engineering Technique</a></li>
+					<li class="animatable bounceInLeft"><a href="">Network Hacking</a></li>
+					<li class="animatable bounceInLeft"><a href="">Malware Attacks and Detection</a></li>
+					<li class="animatable bounceInLeft"><a href="">Bug Bounty and C.T.F.</a></li>
+					<li class="animatable bounceInLeft"><a href="">Cryptography and Steganography</a></li>
 				</ol>
 			</div>
-			<div class="course_sy_list2 animatable bounceInRight">
+			<div class="course_sy_list2">
 				<ol start="11">
-					<li><a href="">Password Cracking</a> </li>
-					<li><a href="">System Hacking</a></li>
-					<li><a href="">SQL Injection</a></li>
-					<li><a href="">Web Application Hacking</a></li>
-					<li><a href="">Reverse Engineering</a></li>
-					<li><a href="">Buffer Overflow</a></li>
-					<li><a href="">Digital Forensics</a></li>
-					<li><a href="">Firewall, IDS and Honeypots</a></li>
-					<li><a href="">Penetration Testing Report</a></li>
-					<li><a href="">Wireless hacking</a></li>
+					<li class="animatable bounceInRight"><a href="">Password Cracking</a> </li>
+					<li class="animatable bounceInRight"><a href="">System Hacking</a></li>
+					<li class="animatable bounceInRight"><a href="">SQL Injection</a></li>
+					<li class="animatable bounceInRight"><a href="">Web Application Hacking</a></li>
+					<li class="animatable bounceInRight"><a href="">Reverse Engineering</a></li>
+					<li class="animatable bounceInRight"><a href="">Buffer Overflow</a></li>
+					<li class="animatable bounceInRight"><a href="">Digital Forensics</a></li>
+					<li class="animatable bounceInRight"><a href="">Firewall, IDS and Honeypots</a></li>
+					<li class="animatable bounceInRight"><a href="">Penetration Testing Report</a></li>
+					<li class="animatable bounceInRight"><a href="">Wireless hacking</a></li>
 				</ol>
 			</div>
 			
@@ -308,8 +310,8 @@
                             <img src="../image/youtube.png" class=""></img>
                         </a>
                     </div><div class="socio_icon">
-                        <a href="" target="_blank">
-                            <img src="../image/gmail.png" class=""></img>
+                        <a href="https://www.linkedin.com/company/14591041" target="_blank">
+                            <img src="../image/linkedin.png" class=""></img>
                         </a>
                     </div><div class="socio_icon">
                         <a href="https://twitter.com/cyberhawkcorp" target="_blank">
@@ -382,24 +384,11 @@
 
 <script>
         jQuery(window).load(function(){
-            jQuery(".spinner-wrapper").fadeOut(500);
+            jQuery("#loader-wrapper").fadeOut(500);
         });
 		
 </script>
-<script type="text/javascript">
-		function confirmalert(){
-	var userselection = confirm("Are you sure you want to close this account permanently?", 'Title', function () {
-      $('.btn-no').text("No");
-      $('.btn-yes').text("Yes");
-  });
-	if (userselection == true){
-		window.location.href = "https://www.payumoney.com/paybypayumoney/#/81C25CC6B08D465492EAE24E96DB6A11";
-	  }
-	else{
-		alert("Your account is not deleted!");
-	}    
-	}	
-</script>
+
 
 <!-- script for animation on scroll -->
 
