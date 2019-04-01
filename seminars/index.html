@@ -46,17 +46,20 @@
 <body>
 
 <!--PRELOADER HTML CODE-->
-<div class="spinner-wrapper">
-<div class="wrap">
-  <div class="bg">
-    <div class="loading">
-      <span class="title">loading</span>
-      <span class="text">CyberHawk Security</span>
-    </div>
+<div id="loader-wrapper">
+  <div id="preloader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div id="label">
+    <h2>CyberHawk Security</h2>
+    <p>Safe and Secure Cyber Solutions</p>
   </div>
 </div>
-
-</div>
+  
   
 
 <!--PRELOADER CODE ENDS HERE-->
@@ -279,7 +282,7 @@
 
 <script>
         jQuery(window).load(function(){
-            jQuery(".spinner-wrapper").fadeOut(500);
+            jQuery("#loader-wrapper").fadeOut(500);
         });
 		
 </script>	
