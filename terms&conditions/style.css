@@ -279,6 +279,10 @@ html, body {
 	padding-top: 18px;
 	font-size: 16px;
 }
+.require {
+	list-style-type: none;
+	text-align: center;
+}
 
 
 @media only screen and (max-width: 700px) {
