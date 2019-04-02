@@ -1031,6 +1031,7 @@ slide show css ends from here
 	#text-align: left;
 	text-align: justify;
 	text-justify: inner-word;
+	font-family: "Open Sans",Arial,sans-serif;
 }
 .what_do_img {
 	
@@ -1040,8 +1041,8 @@ slide show css ends from here
 	text-align: center;
 	#background-color: yellow;
 	float: right;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	
 }
 .what_do_img img {

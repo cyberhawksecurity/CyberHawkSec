@@ -268,7 +268,7 @@ html, body {
 
 .tc_points ul {
 		list-style:none;
-		list-style-type: circle;
+		list-style-type: square;
 		list-style-position:outside;
 }
 .tc_points ul li {
