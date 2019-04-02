@@ -24,7 +24,7 @@ $(document).ready(function(){
 	});
 	
 	//automatic slider
-	var autoSlider = setInterval(slideRight, 3000);
+	var autoSlider = setInterval(slideRight, 8000);
 	
 	countSlides();
 	
@@ -47,7 +47,7 @@ $(document).ready(function(){
 	//pause automatic slide when hover
 	$('#slider_wrap').hover(
 	  function(){ $(this).addClass('active'); clearInterval(autoSlider); }, 
-	  function(){ $(this).removeClass('active'); autoSlider = setInterval(slideRight, 3000); }
+	  function(){ $(this).removeClass('active'); autoSlider = setInterval(slideRight, 8000); }
 	);
 	
 });

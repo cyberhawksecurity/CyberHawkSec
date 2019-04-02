@@ -431,7 +431,7 @@ html, body {
 	
 	
 	display:inline-block;
-	width: 180px;
+	width: 200px;
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-bottom: 20px;
@@ -440,8 +440,8 @@ html, body {
 	color: #daf6ff;
 	text-decoration: none;
 	text-align:center;
-	border: 1px solid #daf6ff;
-	border-radius: 25px;
+	border: 1.5px solid #daf6ff;
+	#border-radius: 25px;
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -451,6 +451,7 @@ html, body {
 	background-color: #fff;
 	color: #000;
 	border:0;
+	text-decoration: none;
 }
 .course_more {
 	position:absolute;
@@ -627,7 +628,7 @@ slide show css starts from here
 		  opacity: 0;
 		  animation-name: titleAnimation;
 		  animation-timing-function: ease;
-		  animation-duration: 3s;
+		  animation-duration: 8s;
 		  animation-delay: 0.6s;
 	  -webkit-animation-fill-mode: forwards;
 	  animation-iteration-count: infinite;
@@ -650,7 +651,7 @@ slide show css starts from here
 	  opacity: 0;
 	  animation-name: titleAnimation;
 	  animation-timing-function: ease;
-	  animation-duration: 3s;
+	  animation-duration: 8s;
 	  animation-delay: 0.s;
 	  -webkit-animation-fill-mode: forwards;
 		animation-delay: 0.7s;
@@ -777,13 +778,13 @@ slide show css starts from here
 		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
 		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
 	  }
-	  20% {
+	  10% {
 		transform: translateY(0);
 		opacity: 1;
 		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
 		clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
 	  }
-	  80% {
+	  85% {
 		transform: translateY(0);
 		opacity: 1;
 		-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 5%);
@@ -1145,10 +1146,14 @@ slide show css ends from here
 	height: auto;
   font-family: 'Contrail One';
   color: #fff;
-  background-color: #000;
+  #background-color: #000;
   /* used for usingg z-index, so that we can take background in the backward of the all before, after, text*/
   position: relative;
   z-index: -9;
+	background-size: cover;
+   background-position: center center;
+   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/11.jpg);
+   background-attachment: fixed;
 }
 
 .services_wrapper {
@@ -1276,6 +1281,54 @@ slide show css ends from here
 	}
 
 
+/* the button link to training  */	
+	
+	
+	#join_button{
+	
+		height: auto;
+		width: 100%;
+		background-color: #f3f3f3;
+		overflow:hidden;
+		padding: 50px 0;
+	}
+
+	.button_link {
+		#box-sizing: content-box;
+		overflow: hidden;
+		width: 360px;
+		#background-color: #ffffff;
+		color: #000;
+		#height: 2px;
+		margin: 0 auto;
+		#border-top: 1px solid rgba(0,0,0,.1);
+	}
+	.button_link a{
+		
+		
+		display:inline-block;
+		width: 100%;
+		#margin:auto;
+		padding: 10px 0px;
+		color:#333;
+		#color: #daf6ff;
+		text-decoration: none;
+		text-align:center;
+		border: 1.5px solid #333;
+		#border-radius: 25px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+
+.button_link a:hover {
+	background-color: #000;
+	color: #fff;
+	#border:0;
+	text-decoration: none;
+}
+	
+	
 /* footer css starts here */
 
 			#chs_footer {
