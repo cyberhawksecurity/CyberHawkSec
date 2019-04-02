@@ -230,7 +230,7 @@ html, body {
 	#position:absolute;
 	width:80%;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 20px;
 	#top:20%;
 	#left:50%;
 	#transform: translate(-50%,-50%);		
@@ -238,9 +238,10 @@ html, body {
 
 .title h1 {
 		#background-color: yellow;
-		text-align:center;
+		#text-align:center;
 		color: white;
-		font-size: 25px;
+		font-size: 45px;
+		
 }
 
 .sub_title {
@@ -264,7 +265,7 @@ html, body {
 }
 
 .tc_points h1{
-	text-align:center;
+	#text-align:center;
 	color: white;
 }
 
@@ -280,8 +281,156 @@ html, body {
 	font-size: 16px;
 }
 .require {
+	
 	list-style-type: none;
-	text-align: center;
+	width: 50%
+	
+	
+}
+
+.course_sy_cont {
+	background-color:rgba(0,0,0,0.7);
+	overflow:hidden;
+	width: 1000px;
+	margin:auto;
+}
+.course_sy_cont h1 {
+		
+		margin-top:	 20px;
+		color:white;
+		text-align:center;
+}
+.course_sy_list1 {
+		
+		width: 410px;
+		#background-color:rgba(0,0,0,0.7);
+		float:left;
+		margin: 10px;
+	
+
+}
+.course_sy_list2 {
+		
+		width: 410px;
+		#background-color:gray;
+		float:right;
+		margin: 30px;
+		
+		
+}
+
+.course_sy_list1 ol,.course_sy_list2 ol {
+	list-style-position: inside;
+}
+.course_sy_list1 , .course_sy_list2 {
+	padding-left:10px;
+	
+	color:white;
+	#background-color:rgba(0,0,0,0.8);
+	margin-bottom: 10px;
+}
+.course_sy_list1 , .course_sy_list2  {
+	
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding: 5px 10px;
+	padding-left:4px;
+	display: inline-block;
+	font-family: "Open Sans",Arial,sans-serif;
+}
+.course_sy_list1 :hover, .course_sy_list2 :hover {
+	
+	border-bottom: 2px solid white;
+}
+.course_sy_but1 {
+		
+	width: 200px;
+	#background-color: red;
+	margin:auto;
+	text-align:center;
+	margin-top: 30px;
+	
+}
+.course_sy_but1  {
+	
+	#background-color: yellow;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	background-color:rgba(0,0,0,0.7);
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	
+	
+	.course_sy_cont {
+		background-color:rgba(0,0,0,0.7);
+		overflow:hidden;
+		width: 700px;
+		margin:auto;
+	}
+	
+	.course_sy_list1 {
+		
+		width: 320px;
+		#background-color:rgba(0,0,0,0.7);
+		float:left;
+		margin: 10px;
+
+	}
+	.course_sy_list2 {
+			
+			width: 320px;
+			#background-color:gray;
+			float:right;
+			margin: 10px;
+			
+	}
+	.course_sy_list1 , .course_sy_list2  {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	
+	#course_syllabus {
+	
+		height:auto;
+	
+	}
+	.course_sy_cont {
+		width: 360px;
+		margin: auto;
+		#text-align:center;
+
+	}
+	.course_sy_cont h1{
+		
+		text-align: left;
+	}
+	.course_sy_list1 {
+		
+		width:100%;
+		margin:0;
+		float:none;
+	}
+	
+	.course_sy_list2 {
+		
+		width:100%;
+		margin:0;
+		float:none;
+	}
+	.course_sy_list1 , .course_sy_list2  {
+		font-size: 16px;
+	}
 }
 
 
