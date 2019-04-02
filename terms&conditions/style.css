@@ -306,7 +306,7 @@ html, body {
 		#background-color:rgba(0,0,0,0.7);
 		float:left;
 		margin: 10px;
-	
+	color:white;
 
 }
 .course_sy_list2 {
@@ -315,56 +315,10 @@ html, body {
 		#background-color:gray;
 		float:right;
 		margin: 30px;
-		
+		color:white;
 		
 }
 
-.course_sy_list1 ol,.course_sy_list2 ol {
-	list-style-position: inside;
-}
-.course_sy_list1 , .course_sy_list2 {
-	padding-left:10px;
-	
-	color:white;
-	#background-color:rgba(0,0,0,0.8);
-	margin-bottom: 10px;
-}
-.course_sy_list1 , .course_sy_list2  {
-	
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
-	padding: 5px 10px;
-	padding-left:4px;
-	display: inline-block;
-	font-family: "Open Sans",Arial,sans-serif;
-}
-.course_sy_list1 :hover, .course_sy_list2 :hover {
-	
-	border-bottom: 2px solid white;
-}
-.course_sy_but1 {
-		
-	width: 200px;
-	#background-color: red;
-	margin:auto;
-	text-align:center;
-	margin-top: 30px;
-	
-}
-.course_sy_but1  {
-	
-	#background-color: yellow;
-	padding: 10px 15px;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: bold;
-	background-color:rgba(0,0,0,0.7);
-	color: white;
-	border-radius: 5px;
-	display: inline-block;
-	
-}
 
 @media only screen and (max-width: 1000px) {
 	
@@ -400,13 +354,9 @@ html, body {
 
 @media only screen and (max-width: 700px) {
 	
-	#course_syllabus {
-	
-		height:auto;
-	
-	}
+
 	.course_sy_cont {
-		width: 360px;
+		width: 100%;
 		margin: auto;
 		#text-align:center;
 
@@ -454,7 +404,8 @@ html, body {
 			
 		}
 		.tc_points {
-			
+				width: 70%;
+				
 		}
 }
 
