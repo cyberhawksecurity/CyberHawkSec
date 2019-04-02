@@ -454,39 +454,7 @@ html, body {
 	text-decoration: none;
 }
 
-.butn1 {
-	position:absolute;
-	top:80%;
-	left: 15%;
-	transform: translate(-50%,-50%);
-}
 
-
-.butn1 a{
-
-
-	display:inline-block;
-	width: 200px;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	padding: 10px 15px;
-	#color:white;
-	color: #FFA500;
-	text-decoration: none;
-	text-align:center;
-	border: 1.5px solid #FFA500;
-	#border-radius: 25px;
-	font-weight: bold;
-	font-size: 18px;
-}
-
-.butn1 a:hover {
-	background-color: #FFA500;
-	color: #fff;
-	border:1;
-	text-decoration: none;
-}
 
 .course_more {
 	position:absolute;
@@ -1087,6 +1055,39 @@ slide show css ends from here
 
 }
 
+.butn1 {
+	#position:absolute;
+	#top:80%;
+	#left: 15%;
+	#transform: translate(-50%,-50%);
+	text-align: left;
+}
+
+
+.butn1 a{
+
+
+	display:inline-block;
+	width: 200px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px 15px;
+	#color:white;
+	color: #FFA500;
+	text-decoration: none;
+	text-align:center;
+	border: 1.5px solid #FFA500;
+	#border-radius: 25px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.butn1 a:hover {
+	background-color: #FFA500;
+	color: #fff;
+	border:1;
+	text-decoration: none;
+}
 
 @media only screen and (max-width: 1200px) {
 
