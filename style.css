@@ -11,7 +11,7 @@
   width: 100%;
   height: 100%;
   z-index: 1000;
-  
+
 }
 
 #preloader {
@@ -68,7 +68,7 @@
   }
   50% {height:4px; transform: translateY(0px); background:#00FFF5;
   }
-  100%{ height:4px; transform:translateY(0px) ;background:#393E46; 
+  100%{ height:4px; transform:translateY(0px) ;background:#393E46;
   }
 }
 
@@ -82,7 +82,7 @@
   line-height: 1.2;
   font-family: 'Inconsolata', sans-serif;
   text-align: center;
-  
+
 }
 #label h2 {
   color: #fafafa;
@@ -93,12 +93,12 @@
 }
 
 @media only screen and (max-width: 700px) {
-	
+
 	#label {
-	
+
 		#margin-top: 50%;
 	}
-	
+
 }
 
 
@@ -130,45 +130,45 @@ html, body {
 	animation: slide 15s infinite;
 	-webkit-animation: slide 15s infinite;
     -moz-animation: slide 15s infinite;
-	
+
 }
-@keyframes slide{	
+@keyframes slide{
 	33%{
 		background-image: url(image/3.jpg);
-	}	
+	}
 	67%{
 		background-image: url(image/4.jpg);
 	}
 	100%{
-		
+
 		background-image: url(image/2.jpg);
 	}
 
 }
 @-webkit-keyframes slide{
-	
+
 	33%{
 		background-image: url(image/3.jpg);
-	}	
+	}
 	67%{
 		background-image: url(image/4.jpg);
 	}
 	100%{
-		
+
 		background-image: url(image/2.jpg);
 	}
 
 }
 @-moz-keyframes slide{
-	
+
 	33%{
 		background-image: url(image/3.jpg);
-	}	
+	}
 	67%{
 		background-image: url(image/4.jpg);
 	}
 	100%{
-		
+
 		background-image: url(image/2.jpg);
 	}
 
@@ -195,7 +195,7 @@ html, body {
    background-position: center center;
    #background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/rainy_night1.png);
    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/home.jpg);
-   
+
    background-attachment: fixed;
 }
 
@@ -215,18 +215,18 @@ html, body {
    }
 }
 @media only screen and (max-width: 700px) {
-	
+
 	.demo .large-header {
-	
+
 		 background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/home-mobile.jpg);
 	}
 	.logo {
-	
+
 		width: 80px;
 		margin-left:15px;
 		margin-top: 5px;
-	
-	}  
+
+	}
 }
 
 /*###############################
@@ -236,28 +236,28 @@ html, body {
 	#background-color:#000;
 	overflow: hidden;
 	#height:100px;
-	
+
 }
 
 .menu_button{
-	
+
 	position: absolute;
 	#background-color: #f5f5f5;
-	padding: 7px 10px;	
+	padding: 7px 10px;
 	top: 20px;
 	right: 20px;
-	border-radius: 5px;	
+	border-radius: 5px;
 	display:none;
 	z-index:99;
-	
+
 }
 .menu_icon {
-	
+
   position: relative;
   width: 34px;
   height: 24px;
   display: inline-block;
-  
+
 }
 
 .menu_icon span {
@@ -295,9 +295,9 @@ html, body {
   background: #f3f3f3;
 }
 .menu_button:hover{
-	
+
 	background-color: gray;
-	
+
 }
 
 .menu_icon.is-active span:nth-child(1),
@@ -318,10 +318,10 @@ html, body {
 
 
 .logo {
-	
+
 	width:100px;
 	margin-left:30px;
-	
+
 }
 
 .menu_list{
@@ -330,7 +330,7 @@ html, body {
 	margin: 0;
 	padding:0;
 	#display:none;
-	
+
 }
 
 .menu_list li{
@@ -356,7 +356,7 @@ html, body {
 
 
 @media only screen and (max-width: 700px) {
-	
+
 	.menu_list {
 		position: fixed;
 		top: 0px;
@@ -367,15 +367,15 @@ html, body {
         display: none;
 		z-index: 4;
 		padding-top:80px;
-		
+
     }
 	.menu_list li {
-	
+
         display: block;
 		float: none;
         #border-bottom: 1px solid white;
         margin: 0;
-     
+
     }
 	.menu_list li a {
 		width: 70%;
@@ -386,10 +386,10 @@ html, body {
 		padding:20px;
 	}
 	.menu_button{
-	
+
 		display: block;
 	}
-	
+
 }
 
 /*###############################
@@ -402,7 +402,7 @@ html, body {
 	width:100%;
 	top:50%;
 	left:50%;
-	transform: translate(-50%,-50%);		
+	transform: translate(-50%,-50%);
 }
 
 .title h1 {
@@ -415,21 +415,21 @@ html, body {
 }
 
 .sub_title {
-	font-weight:1; 
-	
+	font-weight:1;
+
 	font-size: 25px;
-	
-	
+
+
 }
 .butn {
 	position:absolute;
 	top:70%;
 	left:50%;
-	transform: translate(-50%,-50%);		
+	transform: translate(-50%,-50%);
 }
 .butn a{
-	
-	
+
+
 	display:inline-block;
 	width: 200px;
 	margin-right: 20px;
@@ -453,13 +453,48 @@ html, body {
 	border:0;
 	text-decoration: none;
 }
+
+.butn1 {
+	position:absolute;
+	top:80%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+}
+
+
+.butn1 a{
+
+
+	display:inline-block;
+	width: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	#color:white;
+	color: #FFA500;
+	text-decoration: none;
+	text-align:center;
+	border: 1.5px solid #FFA500;
+	#border-radius: 25px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.butn1 a:hover {
+	background-color: #FFA500;
+	color: #fff;
+	border:1;
+	text-decoration: none;
+}
+
 .course_more {
 	position:absolute;
 	top:93%;
 	left:50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
-	
+
 }
 .course_more a {
 		text-decoration: none;
@@ -486,10 +521,10 @@ html, body {
 
 
 @media only screen and (max-width: 870px) {
-		
+
 		.butn a{
 				display: block;
-		}				
+		}
 	}
 @media only screen and (max-width: 700px) {
 		.title h1 {
@@ -499,22 +534,22 @@ html, body {
 				letter-spacing: 0.02em;
 		}
 
-		.sub_title {			
+		.sub_title {
 			font-weight:1;
 			font-size: 25px;
 			letter-spacing: 0.02em;
-			
+
 		}
 
 }
 @media only screen and (max-width: 430px) {
-	
+
 		.title {
-			
+
 			top:45%;
-			
+
 		}
-	
+
 }
 
 /* ##############################
@@ -522,7 +557,7 @@ slide show css starts from here
 ############################## */
 
 	#slider_page {
-		
+
 		height: 100vh;
 		width: 100%;
 		#background-color: yellow;
@@ -531,20 +566,20 @@ slide show css starts from here
 	   background-position: center center;
 	   padding-top: 5vh;
 	   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)));
-	   
-	   background-attachment: fixed;	
+
+	   background-attachment: fixed;
 	}
 
 	#slider_wrap {
-		
+
 		height: 80vh;
 		width: 1200px;
 		margin: auto;
 		#background-color: red;
-		
+
 		position:relative;
 		overflow:hidden;
-		
+
 	}
 
 	#slider_wrap ul#slider_area {
@@ -554,20 +589,20 @@ slide show css starts from here
 		#background-color: green;
 		position:absolute;
 		top:0;
-		left:00px;		
+		left:00px;
 	}
-		
+
 	#slider_wrap ul#slider_area li {
-		
+
 		float:left;
 		position:relative;
 		width:1200px;
 		height:80vh;
-		
-		
+
+
 	}
 	#slider_area li div {
-		
+
 		position: absolute;
 		width: 600px;
 		top: 50%;
@@ -577,7 +612,7 @@ slide show css starts from here
 	}
 
 	#slider_area li div h2 {
-		
+
 		font-size: 30px;
 			color: #ffffff;
 	}
@@ -585,18 +620,18 @@ slide show css starts from here
 	#slider_area li div h3 {
 		font-size: 50px;
 			color: #ffffff;
-		
+
 	}
 	.butn_onslide {
 		#position:absolute;
 		#top:70%;
 		#left:50%;
 		#transform: translate(-50%,-50%);
-		margin-top: 20px;	
+		margin-top: 20px;
 	}
 	.butn_onslide a{
-		
-		
+
+
 		display:inline-block;
 		width: 180px;
 		margin-right: 20px;
@@ -632,9 +667,9 @@ slide show css starts from here
 		  animation-delay: 0.6s;
 	  -webkit-animation-fill-mode: forwards;
 	  animation-iteration-count: infinite;
-	  
-	  
-	  
+
+
+
 	  -webkit-animation-play-state: running;
 	  -moz-animation-play-state: running;
 	  -ms-animation-play-state: running;
@@ -657,9 +692,9 @@ slide show css starts from here
 		animation-delay: 0.7s;
 	  -webkit-animation-fill-mode: forwards;
 	  animation-iteration-count: infinite;
-	  
-	  
-	  
+
+
+
 	  -webkit-animation-play-state: running;
 	  -moz-animation-play-state: running;
 	  -ms-animation-play-state: running;
@@ -693,19 +728,19 @@ slide show css starts from here
 		opacity:0.5;
 			position:relative;
 	  top:0;
-	  
-	  
+
+
 	}
 	#pagination_wrap ul li.active{
 	  width:12px;
 	  height:12px;
 	  top:3px;
 		opacity:1;
-		box-shadow:rgba(0,0,0,0.1) 1px 1px 0px;	
+		box-shadow:rgba(0,0,0,0.1) 1px 1px 0px;
 	}
 
 	.btns_area {
-			
+
 		position: absolute;
 		top: 95%;
 		left: 50%;
@@ -713,7 +748,7 @@ slide show css starts from here
 		width: 350px;
 		height: 7vh;
 		#background-color: yellow;
-		
+
 	}
 
 	.btns{
@@ -724,19 +759,19 @@ slide show css starts from here
 		display: inline-block;
 		#line-height:45px;
 		text-align:center;
-		cursor:pointer;	
+		cursor:pointer;
 		background:rgba(0,0,0,0.5);
-		
+
 		vertical-align: middle;
-		
+
 		border-radius: 50%;
 		padding: 3px;
-		
-		-webkit-user-select: none;  
-		-moz-user-select: none; 
-		-khtml-user-select: none; 
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-khtml-user-select: none;
 		-ms-user-select: none;
-		
+
 		-webkit-transition: all 0.1s ease;
 		-moz-transition: all 0.1s ease;
 		-o-transition: all 0.1s ease;
@@ -747,15 +782,15 @@ slide show css starts from here
 		width: 50%;
 		#vertical-align: middle;
 		#background-color: yellow;
-		
+
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		
+
 	}
 	.btns:hover{
-		background:rgba(0,0,0,0.3);	
+		background:rgba(0,0,0,0.3);
 	}
 
 	#previous{ float: left; #border-radius:7px 0px 0px 7px;}
@@ -767,7 +802,7 @@ slide show css starts from here
 		-moz-transition: all 0.3s cubic-bezier(1,.01,.32,1);
 		-o-transition: all 0.3s cubic-bezier(1,.01,.32,1);
 		-ms-transition: all 0.3s cubic-bezier(1,.01,.32,1);
-		transition: all 0.3s cubic-bezier(1,.01,.32,1);	
+		transition: all 0.3s cubic-bezier(1,.01,.32,1);
 	}
 
 
@@ -802,55 +837,55 @@ slide show css starts from here
 	@media only screen and (max-width: 1202px) {
 
 		#slider_wrap {
-			
+
 			width: 1000px;
 		}
-		
+
 		#slider_wrap ul#slider_area li {
 
 			width: 1000px;
 		}
-		
+
 	}
 	@media only screen and (max-width: 1002px) {
 
 		#slider_wrap {
-			
+
 			width: 800px;
 		}
-		
+
 		#slider_wrap ul#slider_area li {
 
 			width: 800px;
 		}
-		
+
 	}
 	@media only screen and (max-width: 802px) {
 
 		#slider_wrap {
-			
+
 			width: 600px;
 		}
-		
+
 		#slider_wrap ul#slider_area li {
 
 			width: 600px;
 		}
-		
+
 		#slider_area li div {
-		
-		
+
+
 			width: 400px;
-		
+
 		}
 
-		
-		
+
+
 	}
 
 	@media only screen and (max-width: 602px) {
 
-		#slider_page { 
+		#slider_page {
 			height:600px;
 			padding-top: 40px;
 		}
@@ -858,75 +893,75 @@ slide show css starts from here
 				height: 500px;
 			}
 		#slider_wrap {
-			
+
 			width: 400px;
 		}
-		
+
 		#slider_wrap ul#slider_area li {
 
 			width: 400px;
 			height: 500px;
 		}
 		#slider_area li div {
-		
-		
+
+
 			width: 350px;
-		
+
 		}
 
 		#slider_area li div h2 {
-			
+
 			font-size: 25px;
-				
+
 		}
 
 		#slider_area li div h3 {
 			font-size: 40px;
-			
-			
+
+
 		}
 		.btns_area {
-			
+
 			width: 180px;
 		}
 	}
 
 	@media only screen and (max-width: 420px) {
-		#slider_page { 
+		#slider_page {
 					height:500px;
 					padding-top: 30px;
 			}
 
 			#slider_wrap {
-				
+
 				width: 300px;
 				height: 400px;
 			}
-			
+
 			#slider_wrap ul#slider_area li {
 
 				width: 300px;
 				height: 400px;
 			}
 			#slider_area li div {
-			
-			
+
+
 				width: 250px;
-			
+
 			}
 
 			#slider_area li div h2 {
-				
+
 				font-size: 18px;
-					
+
 			}
 
 			#slider_area li div h3 {
 				font-size: 30px;
-				
-				
+
+
 			}
-		
+
 	}
 
 
@@ -941,7 +976,7 @@ slide show css ends from here
 ############################## */
 
 #box_first{
-	
+
 	height: auto;
 	width: 100%;
 	background-color: #000;
@@ -962,31 +997,31 @@ slide show css ends from here
 }
 
 .box_first_cont{
-	
+
 	color: #fff;
 	font-size: 30px;
-	
+
 	width: 1000px;
 	margin: 60px auto;
 	text-align: center;
-	
+
 }
 
 @media only screen and (max-width: 1005px) {
-	
+
 	.box_first_cont{
 		width: 600px;
 		font-size: 28px;
 	}
-	
+
 }
 @media only screen and (max-width: 610px) {
-	
+
 	.box_first_cont{
 		width: 300px;
 		font-size: 24px;
 	}
-	
+
 }
 
 
@@ -994,10 +1029,10 @@ slide show css ends from here
 		height: auto;
 		width: 100%;
 		background-color: #fff;
-		overflow: hidden;	
+		overflow: hidden;
 }
 .what_do_contain{
-	
+
 	position: relative;
 	width:1200px;
 	padding:40px;
@@ -1005,11 +1040,11 @@ slide show css ends from here
 	margin: auto;
 	overflow: hidden;
 	#background-color: red;
-	
+
 }
 
 .what_do_cont{
-	
+
 	width: 65%;
 	#margin:auto;
 	float: left;
@@ -1018,9 +1053,9 @@ slide show css ends from here
 	text-align:center;
 }
 .what_do_cont h1 {
-	
+
 	margin-bottom: 20px;
-	
+
 }
 .what_do_cont p {
 
@@ -1034,66 +1069,72 @@ slide show css ends from here
 	font-family: "Open Sans",Arial,sans-serif;
 }
 .what_do_img {
-	
+
 
 	width: 30%;
 	vertical-align: middle;
 	text-align: center;
 	#background-color: yellow;
 	float: right;
+<<<<<<< HEAD
 	padding-top: 50px;
 	padding-bottom: 50px;
 	
+=======
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+>>>>>>> d8f5bef362f5cfa9019d8ef1058a2a5f101386e6
 }
 .what_do_img img {
-	
-	
+
+
 	vertical-align: middle;
-	
+
 }
 
 
 @media only screen and (max-width: 1200px) {
-	
+
 
 	.what_do_contain{
-	
+
 		width: 100%;
 		#height: 100vh;
 	}
-	.what_do_cont{ 
-	
+	.what_do_cont{
+
 		height:auto;
 		overflow:hidden;
-	
+
 	}
 	.what_do_img{
-		
+
 		height: auto;
 		overflow: hidden;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
-	
-	
+
+
 	#what_do{
 			#height: 100vh;
 			z-index: -1;
 	}
 	.what_do_contain{
-	
+
 		padding: 20px;
-	}	
+	}
 	.what_do_cont{
-		
+
 		position: relative;
 		float: none;
 		width: 100%;
 		top: 0%;
 		left:0%;
-		#transform: translate(-50%,-50%);	
-		overflow: hidden;	
+		#transform: translate(-50%,-50%);
+		overflow: hidden;
 		height:;
 		margin:auto;
 		padding: 20px;
@@ -1103,11 +1144,11 @@ slide show css ends from here
 		z-index: 2;
 	}
 	.what_do_cont h1 {
-		
+
 		margin-bottom: 20px;
 	}
 	.what_do_img {
-	
+
 		float: none;
 		width: auto;
 		position: absolute;
@@ -1115,35 +1156,35 @@ slide show css ends from here
 		z-index: 1;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%,-50%);	
+		transform: translate(-50%,-50%);
 	}
 	.what_do_img img {
 	vertical-align: middle;
 	opacity: 0.3;
 	filter: alpha(opacity=30);
-	
+
 	}
 
 }
 
 @media only screen and (max-width: 400px) {
-	
+
 	.what_do_contain{
-		
+
 		padding:15px;
 	}
-	
+
 	.what_do_cont{
-		
+
 		padding: 15px;
-		
+
 	}
 }
 
 
 
 #services_tab {
-	
+
 	height: auto;
   font-family: 'Contrail One';
   color: #fff;
@@ -1215,33 +1256,33 @@ slide show css ends from here
 	text-decoration: none;
 	color: #333;
 	border: 3px solid #333 ;
-}	
+}
 
 
 
 @media only screen and (max-width: 700px) {
-	
+
 		.services_clip-text {
 		  font-size: 1em;
 		  width: 200px;
-	
+
 		}
-		
+
 		.services_quote {
 		  font-size: 1.5em;
 		  margin: 1em auto 1.5em;
 		  padding: 1em 1em .25em 1em;
-	
+
 		}
 
-		
-	
+
+
 }
 
 /* contact us form style  */
 
 	#contact_tab {
-		
+
 			height: auto;
 			width: 100%;
 			background-size: cover;
@@ -1249,44 +1290,44 @@ slide show css ends from here
    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/Ethical_Hacking.jpg);
    background-attachment: fixed;
 			border-top: 0.05px solid black;
-			
+
 	}
 	.contact_form {
-			
+
 			width:640px;
 			margin: auto;
-			
+
 			margin-top: 40px;
 			padding-top: 40px;
 			margin-bottom: 0px;
 			padding: 0px;
 			#background-color: red;
-		
+
 	}
 	.contact_form iframe {
-	
+
 		margin:0px;
-		
+
 	}
-	
+
 	@media only screen and (max-width: 700px) {
-		
+
 			.contact_form {
-				
+
 				width:100%;
-				
-				
+
+
 			}
-		
-	
+
+
 	}
 
 
-/* the button link to training  */	
-	
-	
+/* the button link to training  */
+
+
 	#join_button{
-	
+
 		height: auto;
 		width: 100%;
 		background-color: #f3f3f3;
@@ -1305,8 +1346,8 @@ slide show css ends from here
 		#border-top: 1px solid rgba(0,0,0,.1);
 	}
 	.button_link a{
-		
-		
+
+
 		display:inline-block;
 		width: 100%;
 		#margin:auto;
@@ -1328,55 +1369,55 @@ slide show css ends from here
 	#border:0;
 	text-decoration: none;
 }
-	
-	
+
+
 /* footer css starts here */
 
 			#chs_footer {
-				
+
 				width:auto;
 				height:auto;
 				overflow: hidden;
 				background-color: #000;
 				color: white;
-			}	
+			}
 
 			.chs_footer_container {
-			
+
 				width: 700px;
 				margin: auto;
 				margin-top: 2em;
 				margin-bottom: 0em;
 				text-align:center;
 			}
-			
+
 			.footer_logo_cont {
-				
+
 				padding-bottom:20px;
-				
+
 			}
 			.footer_logo_cont a {
 				text-decoration:none;
 				color: #fff;
 				font-size: 25px;
-			
+
 			}
 			.chs_footer_nav {
-			
+
 				margin-bottom: 20px;
 			}
 			.chs_footer_nav_cont{
-				
+
 				list-style: none;
 				text-align: center;
-			
+
 			}
 			.chs_footer_nav li {
-			
+
 				display: inline-block;
-				
-			
-			
+
+
+
 			}
 			.chs_footer_nav li a {
 				text-decoration: none;
@@ -1390,24 +1431,24 @@ slide show css ends from here
 			}
 			.socio_icon a{
 				padding: 10px;
-				
+
 			}
 			.socio_icon a img {
-				
-		
+
+
 				width: 30px;
-			
+
 			}
 			.socio_icon a img:hover {
-			
+
 				width:32px;
 			}
 			.chs_copyright {
-			
+
 				padding: 20px;
 			}
 			.socio_bar {
-			
+
 				height:30px;
 			}
 			@media only screen and (max-width: 700px) {
@@ -1418,8 +1459,5 @@ slide show css ends from here
 					width: 300px;
 					margin:auto;
 				}
-			
+
 			}
-			
-			
-	
