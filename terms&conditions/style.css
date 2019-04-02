@@ -2,106 +2,6 @@
 
 
 
-/* PRELOADER CSS*/
-#loader-wrapper {
-  position: fixed;
-  background: #222831;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  
-}
-
-#preloader {
-  position: relative;
-  width: 200px;
-  margin:auto;
-	top: 65%;
-  background-color: yellow;
-  #height:20px;
-  #margin: -40px 0 0 39%;
-}
-
-#preloader span {
-  display: block;
-  position: absolute;
-  border-radius: 16px;
-  height: 8px;
-  #top: 180px;
-  #top: 50%;
-  left: 0px;
-  width: 32px;
-  bottom: 0;
-  background: #00ADB5;
-  animation: preloader 2.5s infinite cubic-bezier(0.4, 0.0, 0.2, 1) ;
-}
-
-#preloader span:nth-child(2){
-  left: 40px;
-    #top: 180px;
-  animation-delay: 100ms;
-}
-
-#preloader span:nth-child(3){
-  left: 80px;
-    #top: 180px;
-  animation-delay: 200ms;
-}
-
-#preloader span:nth-child(4){
-  left: 120px;
-    #top: 180px;
-  animation-delay: 300ms;
-}
-
-#preloader span:nth-child(5){
-  left: 160px;
-    #top: 180px;
-  animation-delay: 400ms;
-}
-
-@keyframes preloader {
-  0% { height: 8px; transform: translateY(0px); background: #00ADB5;   }
-  25% { height: 60px; transform: translateY(-14px); background: #3498db;
-  }
-  50% {height:4px; transform: translateY(0px); background:#00FFF5;
-  }
-  100%{ height:4px; transform:translateY(0px) ;background:#393E46; 
-  }
-}
-
-#label {
-  margin-top: 20%;
-}
-
-p {
-  color: #636363;
-  font-size: .889em;
-  line-height: 1.2;
-  font-family: 'Inconsolata', sans-serif;
-  text-align: center;
-  
-}
-h2 {
-  color: #fafafa;
-  font-size: 1.777em;
-  line-height: 1.2;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-@media only screen and (max-width: 700px) {
-	
-	#label {
-	
-		margin-top: 50%;
-	}
-	
-}
-
-/* PRELOADER CSS ENDS HERE-----------------------------------------------------------------*/
 
 
 *{
@@ -116,94 +16,7 @@ html, body {
     margin: 0;
 	box-sizing: border-box;
 }
-/*
-.slider{
-	background-image: url(image/2.jpg);
-	height:100vh;
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position:center;
-	background-attachment: fixed;
-	animation: slide 15s infinite;
-	-webkit-animation: slide 15s infinite;
-    -moz-animation: slide 15s infinite;
-	
-}
-@keyframes slide{	
-	33%{
-		background-image: url(image/3.jpg);
-	}	
-	67%{
-		background-image: url(image/4.jpg);
-	}
-	100%{
-		
-		background-image: url(image/2.jpg);
-	}
 
-}
-@-webkit-keyframes slide{
-	
-	33%{
-		background-image: url(image/3.jpg);
-	}	
-	67%{
-		background-image: url(image/4.jpg);
-	}
-	100%{
-		
-		background-image: url(image/2.jpg);
-	}
-
-}
-@-moz-keyframes slide{
-	
-	33%{
-		background-image: url(image/3.jpg);
-	}	
-	67%{
-		background-image: url(image/4.jpg);
-	}
-	100%{
-		
-		background-image: url(image/2.jpg);
-	}
-
-}
-
-*/
-/* for the home page background */
-
-.large-header {
-   position: relative;
-   width: 100%;
-   height:auto;
-   background: #111;
-   overflow: hidden;
-   background-size: cover;
-   background-position: center center;
-   z-index: 1;
-}
-
-.demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-}
-
-
-
-.demo {
-   #text-transform: uppercase;
-   #font-size: 4.2em;
-   #letter-spacing: 0.1em;
-}
-
-
-
-@media only screen and (max-width: 768px) {
-   .demo  {
-      #font-size: 3em ;
-   }
-}
 
 /*###############################
 ####menu bar css starts here#####
@@ -371,6 +184,20 @@ html, body {
 /*###############################
 ####menu bar css ends here#####
 ###############################*/
+
+#tc {
+	
+	height: auto;
+	overflow: hidden;
+	background: #000;
+	background-size: cover;
+	background-position: center center;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../image/ethical_hacking2.jpg);
+	background-attachment: fixed;
+	
+	
+}
+
 .butn {
 	text-align: center;
 	margin-top: 30px;
@@ -453,9 +280,9 @@ html, body {
 
 @media only screen and (max-width: 700px) {
 		
-		.large-header {
+		#tc{
 	
-		   height: 100%;
+		   height: auto;
 		   overflow:hidden;
 		   
 		}
