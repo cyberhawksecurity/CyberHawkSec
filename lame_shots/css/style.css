@@ -287,33 +287,4 @@ h1 {
   transform: translateY(0px) scale(1);
 }
 
-@media only screen and (max-width: 700px) {
 
-		
-			.time-line .dates-overflow {
-				  
-				  bottom: 300px;
-				  height: 100px;
-				}
-		.time-line .dates-wrap .date .date-content {
-			  
-			  width: 200px;
-			  height: 200px;
-			  bottom: 100%;
-			  margin-bottom: 160px;
-		
-			}
-			
-			.time-line .dates-wrap .date .date-content .date-image {
-			  width: 100%;
-			  height: calc(100% - 60px);
-			}
-	
-			.controls {
-			  left: 20px;
-			}
-			.controls.next {
-				  left: auto;
-				  right: 20px;
-			}
-}
