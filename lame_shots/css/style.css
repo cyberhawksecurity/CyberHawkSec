@@ -45,6 +45,28 @@ h1 {
 	
 }
 
+.button1 {
+
+  position: absolute;
+  color: white;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  line-height: 0;
+	
+}
+
+.button1 a {
+
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding: 2px;
+	border: 1px solid white;
+	
+}
+
 .controls {
   width: 40px;
   height: 40px;
@@ -95,7 +117,7 @@ h1 {
   left: 0;
   width: 500vw;
   position: absolute;
-  bottom: 50px;
+  bottom: 80px;
   height: 50px;
 }
 
@@ -301,12 +323,8 @@ h1 {
 
 			.button {
 
-			  position: absolute;
-			  color: white;
 			  top: 70px;
 			  right: 10px;
-			  text-transform: uppercase;
-			  line-height: 0;
 				
 			}
 
