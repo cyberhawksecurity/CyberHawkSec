@@ -193,8 +193,7 @@ html, body {
 	#background-image: url("./image/rainy_night1.png");
 	background-size: cover;
    background-position: center center;
-   #background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/rainy_night1.png);
-   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(../image/home.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(../image/error7.jpg);
 
    background-attachment: fixed;
 }
@@ -218,7 +217,9 @@ html, body {
 
 	.demo .large-header {
 
-		 background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(./image/home-mobile.jpg);
+		background-size: cover;
+   background-position: center center;
+		 background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)),url(../image/error4.jpg);
 	}
 	.logo {
 
@@ -400,9 +401,10 @@ html, body {
 .title {
 	position:absolute;
 	width:100%;
-	top:50%;
+	top:80%;
 	left:50%;
 	transform: translate(-50%,-50%);
+	display: none;
 }
 
 .title h1 {
@@ -423,7 +425,7 @@ html, body {
 }
 .butn {
 	position:absolute;
-	top:70%;
+	top:90%;
 	left:50%;
 	transform: translate(-50%,-50%);
 }
