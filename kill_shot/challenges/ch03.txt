@@ -1,0 +1,7 @@
+ch03
+date:07/04/2019
+level:easy
+FirstKill: nobody
+Author: CHS-Admin
+
+bf57dda3de519889910c612563821deb
