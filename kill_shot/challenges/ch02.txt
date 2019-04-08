@@ -1,7 +1,7 @@
 ch02
 date:06/04/2019
 level:easy
-FirstKill: nobody
+FirstKill: CyberLion
 Author: Mohit Khemchandani
 Social-Media : Instagram:@cryptonic007
 
