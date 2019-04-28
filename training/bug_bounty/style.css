@@ -804,9 +804,18 @@ html, body {
 
 	font-family: Verdana,sans-serif;
 	position: absolute;
-	top:80%;
+	top:50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+.trainee_ben_block p {
+	font-family: Verdana,sans-serif;
+	position: absolute;
+	color: #999;
+	font-size: 18px;
+	top:70%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
 }
 .trainee_ben_block img {
 
