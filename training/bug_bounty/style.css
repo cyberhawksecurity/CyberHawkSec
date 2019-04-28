@@ -414,7 +414,7 @@ html, body {
 }
 .butn {
 	position:absolute;
-	top:65%;
+	top:75%;
 	left:50%;
 	transform: translate(-50%,-50%);
 }
@@ -812,7 +812,7 @@ html, body {
 	font-family: Verdana,sans-serif;
 	position: absolute;
 	color: #999;
-	font-size: 18px;
+	font-size: 18	px;
 	top:70%;
 	left: 50%;
 	transform: translate(-50%,-50%);	
