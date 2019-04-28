@@ -106,11 +106,12 @@ html, body {
 }
 
 
+
 .logo {
-	
+
 	width:100px;
 	margin-left:30px;
-	
+
 }
 
 .menu_list{
@@ -119,15 +120,16 @@ html, body {
 	margin: 0;
 	padding:0;
 	#display:none;
-	
+
 }
 
 .menu_list li{
 	display: inline-block;
+	position: relative;
 	margin-top:10px;
 	margin-right:25px;
 }
-.menu_list li a{
+.menu_list li > a{
 	text-decoration: none;
 	color: white;
 	padding: 3px 20px;
@@ -137,48 +139,104 @@ html, body {
 	font-weight: bold;
 	transition: 0.6s ease;
 }
-.menu_list li a:hover{
+.menu_list li > a:hover{
 
 	background-color:white;
 	color: #000;
 }
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: #000;
+  #height: 1000px;
+  width: auto;
+  overflow: hidden;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a{
+
+  padding: 3px 20px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-weight: bold;
+	transition: 0.6s ease;
+	border-bottom: 0.3px solid gray;
+}
+
+.dropdown-content a:hover {background-color: #000; color:#fff; text-decoration: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:white; color: #000;}
 
 
 @media only screen and (max-width: 700px) {
-	
+
 	.menu_list {
 		position: fixed;
 		top: 0px;
-		height: 100vh;
+		height: auto;
         text-align: center;
 		background-color: rgba(0,0,0,0.9);
         width: 100%;
         display: none;
 		z-index: 4;
 		padding-top:80px;
-		
+
     }
 	.menu_list li {
-	
+
         display: block;
 		float: none;
         #border-bottom: 1px solid white;
         margin: 0;
-     
+
     }
-	.menu_list li a {
+	.menu_list li > a {
 		width: 70%;
 		margin: auto;
-		margin-top: 20px;
+		margin-top: 10px;
 		font-size: 25px;
 		display: block;
-		padding:20px;
+		padding:10px;
 	}
 	.menu_button{
-	
+
 		display: block;
 	}
-	
+	.dropbtn {
+		display: none;
+	}
+	.dropdown-content {
+			display: block;
+			position: relative;
+			background-color: transparent;
+	}
+	.dropdown-content a{
+		width: 70%;
+		margin: auto;
+		margin-top: 10px;
+		font-size: 25px;
+		display: block;
+		padding:10px;
+		color: #fff;
+	}
 }
 
 /*###############################
