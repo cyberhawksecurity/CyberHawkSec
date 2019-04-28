@@ -812,7 +812,7 @@ html, body {
 	font-family: Verdana,sans-serif;
 	position: absolute;
 	color: #999;
-	font-size: 18	px;
+	font-size: 18px;
 	top:70%;
 	left: 50%;
 	transform: translate(-50%,-50%);	
@@ -842,13 +842,18 @@ html, body {
 	}
 	.trainee_ben_block span {
 
-		top: 75%;
+		top: 50%;
 
 	}
 	.trainee_ben_block img {
 
 		width: 50px;
 
+	}
+	.trainee_ben_block p {
+		
+		top: 75%;
+		
 	}
 
 
