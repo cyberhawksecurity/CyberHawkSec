@@ -534,13 +534,13 @@ slide show css starts from here
 
 	#slider_page {
 
-		height: 100vh;
+		height: 70vh;
 		width: 100%;
 		#background-color: yellow;
 		position:relative;
 		background-size: cover;
 	   background-position: center center;
-	   padding-top: 5vh;
+	   padding-top: 0vh;
 	   background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.9)));
 
 	   background-attachment: fixed;
@@ -548,9 +548,10 @@ slide show css starts from here
 
 	#slider_wrap {
 
-		height: 80vh;
-		width: 1200px;
-		margin: auto;
+		height: 70vh;
+		#width: 1200px;
+		width: 100vw;
+		#margin: auto;
 		#background-color: red;
 
 		position:relative;
@@ -561,7 +562,7 @@ slide show css starts from here
 	#slider_wrap ul#slider_area {
 
 		width:100%;
-		height:100%;
+		height:70vh;
 		#background-color: green;
 		position:absolute;
 		top:0;
@@ -572,8 +573,10 @@ slide show css starts from here
 
 		float:left;
 		position:relative;
-		width:1200px;
-		height:80vh;
+		#width:1200px;
+		width: 100vw;
+		#height:80vh;
+		height:70vh;
 
 
 	}
@@ -718,10 +721,10 @@ slide show css starts from here
 	.btns_area {
 
 		position: absolute;
-		top: 95%;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		width: 350px;
+		width: 100vw;
 		height: 7vh;
 		#background-color: yellow;
 
@@ -812,41 +815,16 @@ slide show css starts from here
 
 	@media only screen and (max-width: 1202px) {
 
-		#slider_wrap {
-
-			width: 1000px;
-		}
-
-		#slider_wrap ul#slider_area li {
-
-			width: 1000px;
-		}
+	
 
 	}
 	@media only screen and (max-width: 1002px) {
 
-		#slider_wrap {
 
-			width: 800px;
-		}
-
-		#slider_wrap ul#slider_area li {
-
-			width: 800px;
-		}
 
 	}
 	@media only screen and (max-width: 802px) {
 
-		#slider_wrap {
-
-			width: 600px;
-		}
-
-		#slider_wrap ul#slider_area li {
-
-			width: 600px;
-		}
 
 		#slider_area li div {
 
@@ -861,23 +839,7 @@ slide show css starts from here
 
 	@media only screen and (max-width: 602px) {
 
-		#slider_page {
-			height:600px;
-			padding-top: 40px;
-		}
-		#slider_wrap {
-				height: 500px;
-			}
-		#slider_wrap {
-
-			width: 400px;
-		}
-
-		#slider_wrap ul#slider_area li {
-
-			width: 400px;
-			height: 500px;
-		}
+		
 		#slider_area li div {
 
 
@@ -898,27 +860,12 @@ slide show css starts from here
 		}
 		.btns_area {
 
-			width: 180px;
+			width: 100vw;
 		}
 	}
 
 	@media only screen and (max-width: 420px) {
-		#slider_page {
-					height:500px;
-					padding-top: 30px;
-			}
-
-			#slider_wrap {
-
-				width: 300px;
-				height: 400px;
-			}
-
-			#slider_wrap ul#slider_area li {
-
-				width: 300px;
-				height: 400px;
-			}
+	
 			#slider_area li div {
 
 

@@ -4,6 +4,7 @@ var pos = 0;
 var totalSlides = $('#slider_wrap ul li').length;
 //get the slide width
 var sliderWidth = $('#slider_wrap').width();
+//var sliderWidth = screen.width;
 
 $(document).ready(function(){
 
