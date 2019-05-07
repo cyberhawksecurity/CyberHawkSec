@@ -532,6 +532,106 @@ html, body {
 slide show css starts from here
 ############################## */
 
+#training_links {
+
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	#background-color: green;
+	
+}
+.training_blocks1 {
+
+	width: 33.3%;
+	padding: 0;
+	float: left;
+	height: 50vh;
+	background-color: #313131;
+	display: inline-block;
+	
+
+}
+.training_blocks2 {
+
+	width: 33.3%;
+	padding: 0;
+	float: left;
+	height: 50vh;
+	background-color: #3e3e3e;
+	display: inline-block;
+
+}
+.training_blocks3 {
+
+	width: 33.3%;
+	padding: 0;
+	float: left;
+	height: 50vh;
+	background-color: #323232;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.training_a {
+
+		position: relative;
+	
+}
+.training_a div {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.training_a a {
+
+	text-decoration: none;
+	color: white;
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: bold;
+	display: block;
+	width: 80%;
+	margin: auto;
+		
+}
+
+.training_a a:hover{
+	
+	text-decoration: none;
+	color: white;
+	font-size: 30px;	
+}
+
+@media only screen and (max-width: 800px){
+	
+	.training_blocks1{
+		
+		width:100%;
+		height: 30vh;
+	}
+	.training_blocks2{
+		
+		width:100%;
+		height: 30vh;
+	}
+	.training_blocks3{
+		
+		width:100%;
+		height: 30vh;
+	}
+	
+	
+}
+
+
+
 	#slider_page {
 
 		height: 70vh;
