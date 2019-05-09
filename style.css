@@ -682,6 +682,7 @@ slide show css starts from here
 		height:70vh;
 
 
+
 	}
 	#slider_area li div {
 
@@ -691,6 +692,7 @@ slide show css starts from here
 		left: 50%;
 		transform: translate(-50%,-50%);
 		font-size: 25px;
+
 	}
 
 	#slider_area li div h2 {
@@ -701,7 +703,7 @@ slide show css starts from here
 
 	#slider_area li div h3 {
 		font-size: 35px;
-			color: #B0BEC5;
+			color: #FFB74D;
 
 	}
 	.butn_onslide {
@@ -1016,8 +1018,8 @@ slide show css ends from here
 	box-sizing: content-box;
 	overflow: visible;
 	width: 25%;
-	background-color: #ffffff;
-	color: #ffffff;
+	background-color: #FFEE58;
+	color: #FFEE58;
 	height: 2px;
 	margin: 0 auto;
 	border-top: 1px solid rgba(0,0,0,.1);
@@ -1025,7 +1027,7 @@ slide show css ends from here
 
 .box_first_cont{
 
-	color: #fff;
+	color: #FFEE58;
 	font-size: 30px;
 
 	width: 1000px;
@@ -1055,7 +1057,7 @@ slide show css ends from here
 #what_do{
 		height: auto;
 		width: 100%;
-		background-color: #fff;
+		background-color: #17202A;
 		overflow: hidden;
 }
 .what_do_contain{
@@ -1082,6 +1084,7 @@ slide show css ends from here
 .what_do_cont h1 {
 
 	margin-bottom: 20px;
+  color: #F39C12;
 
 }
 .what_do_cont p {
@@ -1093,6 +1096,7 @@ slide show css ends from here
 	#text-align: left;
 	text-align: justify;
 	text-justify: inner-word;
+  color: #ABB2B9;
 	font-family: "Open Sans",Arial,sans-serif;
 }
 .what_do_img {
