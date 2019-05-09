@@ -703,7 +703,7 @@ slide show css starts from here
 
 	#slider_area li div h3 {
 		font-size: 35px;
-			color: #FFB74D;
+			color: #F39C12;
 
 	}
 	.butn_onslide {
@@ -1018,8 +1018,8 @@ slide show css ends from here
 	box-sizing: content-box;
 	overflow: visible;
 	width: 25%;
-	background-color: #ffd800;
-	color: #ffd800;
+	background-color: #ABB2B9;
+	color: #ABB2B9;
 	height: 2px;
 	margin: 0 auto;
 	border-top: 1px solid rgba(0,0,0,.1);
@@ -1027,7 +1027,7 @@ slide show css ends from here
 
 .box_first_cont{
 
-	color: #ffd800;
+	color: #ABB2B9;
 	font-size: 30px;
 
 	width: 1000px;
