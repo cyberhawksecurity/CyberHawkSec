@@ -695,13 +695,13 @@ slide show css starts from here
 
 	#slider_area li div h2 {
 
-		font-size: 30px;
-			color: #ffffff;
+		font-size: 25px;
+			color: #B0BEC5;
 	}
 
 	#slider_area li div h3 {
-		font-size: 50px;
-			color: #ffffff;
+		font-size: 35px;
+			color: #B0BEC5;
 
 	}
 	.butn_onslide {
@@ -1008,6 +1008,7 @@ slide show css ends from here
 	background-color: #000;
 	overflow:hidden;
 	padding: 50px 0;
+  background-image: url(./image/back.jpg);
 }
 
 .box_line {
