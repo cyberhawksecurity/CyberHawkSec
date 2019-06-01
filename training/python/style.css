@@ -639,7 +639,7 @@ html, body {
 #course_highlight {
 
 	height:100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0)),url(../../image/bugbounty1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0)),url(../../image/py5.jpg);
 	height:100vh;
 	background-size:cover;
 	background-repeat: no-repeat;
