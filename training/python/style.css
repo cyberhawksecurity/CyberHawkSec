@@ -663,18 +663,33 @@ html, body {
 
 		color: white;
 		font-size: 40px;
+		padding:0;
 		margin-bottom: 20px;
 		text-transform: uppercase;
 }
-.course_hl_cont ul {
+.course_hl_cont>ul {
 		list-style:none;
 		list-style-type: circle;
 		list-style-position:outside;
 }
-.course_hl_cont ul li {
+.course_hl_cont>ul>li {
 	font-family: "Open Sans",Arial,sans-serif;
 	color:white;
-	padding-top: 18px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+ul.sub-list-sy {
+	padding-top:10px;
+	padding-left: 20px;
+	list-style:none;
+		list-style-type: square;
+		list-style-position:outside;
+}
+
+ul.sub-list-sy > li {
+	font-family: "Open Sans",Arial,sans-serif;
+	color:white;
+	#padding-top: 1px;
 	font-size: 16px;
 }
 
